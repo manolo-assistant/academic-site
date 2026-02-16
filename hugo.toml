@@ -1,11 +1,10 @@
 baseURL = "https://manolo-assistant.github.io/academic-site/"
 languageCode = "en-us"
 title = "Jaume de Dios Pont"
-# No external theme — using custom layouts in layouts/
 
 [params]
   author = "Jaume de Dios Pont"
-  description = "Mathematician — NYU Center for Data Science"
+  description = "CDS Faculty Fellow — NYU Center for Data Science"
   profileImage = "/img/profile.jpg"
   email = "jdedios@nyu.edu"
   scholar = "https://scholar.google.com/citations?user=gYj6GRoAAAAJ"
@@ -32,8 +31,8 @@ title = "Jaume de Dios Pont"
     url = "/talks/"
     weight = 3
   [[menu.main]]
-    name = "Teaching"
-    url = "/teaching/"
+    name = "Travel"
+    url = "/travel/"
     weight = 4
   [[menu.main]]
     name = "CV"

@@ -1,11 +1,12 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-{{ $pages := .Pages.ByParam "year" }}
-{{ range $pages.Reverse }}
+{{ $pages := .Pages.ByDate.Reverse }}
+{{ range $pages }}
 <div class="entry">
-  <h3>{{ .Title }}</h3>
-  {{ .Content }}
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with .Params.event }}<p class="entry-meta">{{ . }}{{ with $.Params.type }} — {{ . }}{{ end }}</p>{{ end }}
+  {{ if .Truncated }}{{ .Summary }}{{ else }}{{ .Content }}{{ end }}
 </div>
 {{ end }}
 {{ end }}
