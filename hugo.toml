@@ -5,12 +5,11 @@ title = "Jaume de Dios Pont"
 [params]
   author = "Jaume de Dios Pont"
   description = "CDS Faculty Fellow — NYU Center for Data Science"
-  profileImage = "img/profile.jpg"
+  profileImage = "/img/profile.jpg"
   email = "jdedios@nyu.edu"
   scholar = "https://scholar.google.com/citations?user=gYj6GRoAAAAJ"
   github = "https://github.com/jaumededios"
-  arxiv = "https://arxiv.org/search/?query=jaume+de+dios+pont&searchtype=all"
-  cv_pdf = "cv.pdf"
+  cv_pdf = "/cv.pdf"
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -21,25 +20,25 @@ title = "Jaume de Dios Pont"
 [menu]
   [[menu.main]]
     name = "About"
-    url = "/"
+    url = "/#about"
     weight = 1
   [[menu.main]]
-    name = "Publications"
-    url = "/publications/"
+    name = "Talks & Travel"
+    url = "/#talks"
     weight = 2
   [[menu.main]]
-    name = "Talks"
-    url = "/talks/"
+    name = "Publications"
+    url = "/#publications"
     weight = 3
   [[menu.main]]
-    name = "Travel"
-    url = "/travel/"
-    weight = 4
-  [[menu.main]]
     name = "Teaching"
-    url = "/teaching/"
-    weight = 5
+    url = "/#teaching"
+    weight = 4
   [[menu.main]]
     name = "CV"
     url = "/cv.pdf"
+    weight = 5
+  [[menu.main]]
+    name = "Contact"
+    url = "/#contact"
     weight = 6
