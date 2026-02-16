@@ -1,0 +1,13 @@
+---
+title: "Decoupling and applications: from PDEs to Number Theory"
+date: 2020-01-01
+type: "seminar"
+event: "Microsoft Research Theory Seminar"
+url: "#"
+abstract: |
+  Decoupling estimates were introduced by Wolff [1] in order to improve local smoothing estimates for the wave equation. Since then, they have found multiple applications in analysis: from PDEs and restriction theory, to additive number theory, where Bourgain, Demeter and Guth[2] used decoupling-type estimates to prove the main conjecture of the Vinogradov mean value theorem for d>3.
+  In this talk I will explain what decoupling estimates are, I will talk about its applications to the Vinogradov Mean Value theorem and local smoothing, and I will explain the main ingredients that go into (most) decoupling proofs
+  [1] Wolff, T. (2000). Local smoothing type estimates on Lp for large p. Geometric & Functional Analysis GAFA
+  [2] Bourgain, J., Demeter, C., & Guth, L. (2016). Proof of the main conjecture in Vinogradov's mean value theorem for degrees higher than three. Annals of Mathematics, 633-682.
+---
+
