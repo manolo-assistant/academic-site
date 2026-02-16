@@ -35,12 +35,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Tectonic
-        uses: wtfjoke/setup-tectonic@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install LaTeX packages (moderncv)
+      - name: Install LaTeX (with moderncv)
         run: |
           sudo apt-get update
           sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra
