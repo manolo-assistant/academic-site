@@ -21,9 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: "0.139.0"
-      # Set these as repo secrets if using Google Drive sync:
-      # GOOGLE_SHEET_ID: your-sheet-id
-      # GOOGLE_DRIVE_FOLDER_ID: your-folder-id
     steps:
       - uses: actions/checkout@v4
 
@@ -38,22 +35,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install LaTeX
+      - name: Install Tectonic
+        uses: wtfjoke/setup-tectonic@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install LaTeX packages (moderncv)
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+          sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra
 
-      - name: Sync from Google Drive
-        run: |
-          python scripts/sync-drive.py \
-            ${GOOGLE_SHEET_ID:+--sheet-id "$GOOGLE_SHEET_ID"} \
-            ${GOOGLE_DRIVE_FOLDER_ID:+--image-folder-id "$GOOGLE_DRIVE_FOLDER_ID"}
+      - name: Sync data from Google Sheets + arXiv
+        run: python scripts/sync-drive.py
 
       - name: Build CV (PDF)
         run: python scripts/build-cv.py
 
       - name: Build Hugo site
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url || 'https://manolo-assistant.github.io/academic-site/' }}"
+        run: hugo --minify --baseURL "https://manolo-assistant.github.io/academic-site/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

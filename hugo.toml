@@ -9,6 +9,7 @@ title = "Jaume de Dios Pont"
   email = "jdedios@nyu.edu"
   scholar = "https://scholar.google.com/citations?user=gYj6GRoAAAAJ"
   github = "https://github.com/jaumededios"
+  arxiv = "https://arxiv.org/search/?query=jaume+de+dios+pont&searchtype=all"
   cv_pdf = "/cv.pdf"
 
 [markup.goldmark.renderer]
@@ -35,6 +36,10 @@ title = "Jaume de Dios Pont"
     url = "/travel/"
     weight = 4
   [[menu.main]]
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 5
+  [[menu.main]]
     name = "CV"
     url = "/cv.pdf"
-    weight = 5
+    weight = 6

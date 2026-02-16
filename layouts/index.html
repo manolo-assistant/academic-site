@@ -10,7 +10,8 @@
     <p class="subtitle">{{ .Site.Params.description }}</p>
     <div class="profile-links">
       {{ with .Site.Params.email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
-      {{ with .Site.Params.scholar }}<a href="{{ . }}">Scholar</a>{{ end }}
+      {{ with .Site.Params.scholar }}<a href="{{ . }}">Google Scholar</a>{{ end }}
+      {{ with .Site.Params.arxiv }}<a href="{{ . }}">arXiv</a>{{ end }}
       {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a>{{ end }}
       {{ with .Site.Params.cv_pdf }}<a href="{{ . | relURL }}">CV (PDF)</a>{{ end }}
     </div>

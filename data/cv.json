@@ -1,0 +1,659 @@
+{
+  "publications": [
+    {
+      "title": "Sharp bounds on the failure of the hot spots conjecture",
+      "authors": "J. de Dios Pont, A.W. Hsu, M.A. Taylor",
+      "year": "2025",
+      "journal": "Preprint",
+      "arxiv": "2508.16321",
+      "status": "preprint"
+    },
+    {
+      "title": "Convex sets can have interior hot spots",
+      "authors": "J. de Dios Pont",
+      "year": "2024",
+      "journal": "Preprint",
+      "arxiv": "2412.06344",
+      "status": "preprint"
+    },
+    {
+      "title": "Predicting quantum channels over general product distributions",
+      "authors": "S. Chen, J. de Dios Pont, J.-T. Hsieh, H.-Y. Huang, J. Lange, J. Li",
+      "year": "2024",
+      "journal": "Preprint",
+      "arxiv": "2409.03684",
+      "status": "preprint"
+    },
+    {
+      "title": "Periodicity and decidability of translational tilings by rational polygonal sets",
+      "authors": "J. de Dios Pont, J. Grebík, R. Greenfeld, J. Madrid",
+      "year": "2024",
+      "journal": "Expositiones Mathematicae",
+      "arxiv": "2408.02151",
+      "status": "published"
+    },
+    {
+      "title": "Query lower bounds for log-concave sampling",
+      "authors": "S. Chewi, J. de Dios Pont, J. Li, C. Lu, S. Narayanan",
+      "year": "2024",
+      "journal": "Journal of the ACM, 71(4), 1-42",
+      "arxiv": "2304.02599",
+      "status": "published"
+    },
+    {
+      "title": "A new proof of the description of the convex hull of space curves with totally positive torsion",
+      "authors": "J. de Dios Pont, P. Ivanisvili, J. Madrid",
+      "year": "2025",
+      "journal": "Michigan Mathematical Journal, 1(1), 1-47",
+      "arxiv": "2201.12932",
+      "status": "published"
+    },
+    {
+      "title": "Additive energies on discrete cubes",
+      "authors": "J. de Dios Pont, R. Greenfeld, P. Ivanisvili, J. Madrid",
+      "year": "2023",
+      "journal": "Discrete Analysis",
+      "arxiv": "2112.09352",
+      "status": "published"
+    },
+    {
+      "title": "Uniform Fourier Restriction Estimate for Simple Curves of Bounded Frequency",
+      "authors": "J. de Dios Pont, H. Jørgen Samuelsen",
+      "year": "2023",
+      "journal": "Preprint",
+      "arxiv": "2303.11693",
+      "status": "preprint"
+    },
+    {
+      "title": "On classical inequalities for autocorrelations and autoconvolutions",
+      "authors": "J. de Dios Pont, J. Madrid",
+      "year": "2021",
+      "journal": "Preprint",
+      "arxiv": "2106.13873",
+      "status": "preprint"
+    },
+    {
+      "title": "Decoupling for fractal subsets of the parabola",
+      "authors": "A. Chang, J. de Dios Pont, R. Greenfeld, A. Jamneshan, Z.K. Li, J. Madrid",
+      "year": "2022",
+      "journal": "Mathematische Zeitschrift, 301(2), 1851-1879",
+      "arxiv": "2012.11458",
+      "status": "published"
+    },
+    {
+      "title": "On Sparsity in Overparametrised Shallow ReLU Networks",
+      "authors": "J. de Dios Pont, J. Bruna",
+      "year": "2020",
+      "journal": "Preprint",
+      "arxiv": "2006.10225",
+      "status": "preprint"
+    },
+    {
+      "title": "A geometric lemma for complex polynomial curves with applications in Fourier restriction theory",
+      "authors": "J. de Dios Pont",
+      "year": "2020",
+      "journal": "Preprint",
+      "arxiv": "2003.14140",
+      "status": "preprint"
+    },
+    {
+      "title": "Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models",
+      "authors": "J. Carlen, J. de Dios Pont, C. Mentus, S.-S. Chang, S. Wang, M.A. Porter",
+      "year": "2022",
+      "journal": "Network Science, 10(1), 46-81",
+      "arxiv": "1908.09440",
+      "status": "published"
+    }
+  ],
+  "talks": [
+    {
+      "id": "Montreal25",
+      "title": "Convex sets can have interior hot spots",
+      "type": "Seminar",
+      "event": "ISM Discovery School - Interactions between convex geometry and spectral analysis ",
+      "url": "https://mypage.concordia.ca/alcor/astancu/school.html",
+      "abstract": "A homogeneous, insulated object with a non-uniform initial temperature will eventually reach thermal equilibrium.  Which point in the object takes the longest to reach this equilibrium? Intuition tells us that points \"in the middle\" of the material will generically reach this equilibrium temperature faster, and points \"far from the middle\" (i.e. at the boundary) should take more time to reach this temperature. The hot spots conjecture is a formalization of this intuition.\n\nRauch initially conjectured that points attaining the maximum temperature in the material would approach the boundary as time goes to infinity. Burdzy and Werner later disproved the conjecture for planar domains with holes. The general consensus, however, was that the conjecture should still hold for convex sets of all dimensions.\n\nThis talk will draw inspiration from a recurrent theme in convex analysis: most dimension-free results in convex analysis have a natural log-concave extension. We will motivate and construct the log-concave analog of the Hot Spots conjecture, and then disprove it. Using this log-concave construction, we will argue that the hot spots conjecture for convex sets is false in high enough dimensions.",
+      "tags": "Current",
+      "date": "2025-07-31T09:00:00Z",
+      "date_end": "2025-07-31T10:00:00Z",
+      "time_zone": "EST"
+    },
+    {
+      "id": "Clouds24",
+      "title": "Convex sets can have interior hot spots",
+      "type": "Seminar",
+      "event": "Spectral Geometry in the coluds",
+      "url": "https://agirouard.mat.ulaval.ca/SpectralClouds/",
+      "abstract": "A homogeneous, insulated object with a non-uniform initial temperature will eventually reach thermal equilibrium. The Hot Spots conjecture addresses which point in the object takes the longest to reach this equilibrium: Where is the maximum temperature attained as time progresses? Rauch initially conjectured that points attaining the maximum temperature would approach the boundary for larger times. Burdzy and Werner disproved the conjecture for planar domains with holes. Kawohl, and later Banuelos- Burdzy, conjectured that the conjecture should still hold for convex sets of all dimensions. This talk will draw inspiration from a recurrent theme in convex anal- ysis: almost every dimension-free result in convex analysis has a natural log-concave extension. We will motivate and construct the log-concave ana- log of the Hot Spots conjecture, and then disprove it. Using this log-concave construction, we will show that the hot spots conjecture for convex sets is false in high dimensions.",
+      "tags": "Past",
+      "date": "2025-03-17T17:00:00Z",
+      "date_end": "2025-03-17T18:00:00Z",
+      "time_zone": "CET"
+    },
+    {
+      "id": "UMN22",
+      "title": "Decoupling, Cantor sets, and additive combinatorics",
+      "type": "Seminar",
+      "event": "University of Minnesota PDE Seminar",
+      "url": "#",
+      "abstract": "Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.",
+      "tags": "Past",
+      "date": "2022-09-15T15:30:00Z",
+      "date_end": "2022-09-15T15:30:00Z",
+      "time_zone": "CST"
+    },
+    {
+      "id": "BCAM22",
+      "title": "The convex hull of space curves with totally positive torsion",
+      "type": "Seminar",
+      "event": "Bilbao Analysis and PDE",
+      "url": "https://sites.google.com/site/khughesmath/home/university-of-bristol-analysis-and-geometry",
+      "abstract": "Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.\nContains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).",
+      "tags": "Past",
+      "date": "2022-03-09T15:00:00Z",
+      "date_end": "2022-03-09T16:00:00Z",
+      "time_zone": "EU"
+    },
+    {
+      "id": "UAB22",
+      "title": "The convex hull of space curves with totally positive torsion",
+      "type": "Seminar",
+      "event": "UAB Analysis Seminar",
+      "url": "https://sites.google.com/site/khughesmath/home/university-of-bristol-analysis-and-geometry",
+      "abstract": "Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.\nContains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).",
+      "tags": "Past",
+      "date": "2022-03-07T15:00:00Z",
+      "date_end": "2022-03-07T16:00:00Z",
+      "time_zone": "EU"
+    },
+    {
+      "id": "Bristol22",
+      "title": "Decoupling, Cantor sets, and additive combinatorics",
+      "type": "Seminar",
+      "event": "University of Bristol's Analysis and Geometry Seminar",
+      "url": "https://sites.google.com/site/khughesmath/home/university-of-bristol-analysis-and-geometry",
+      "abstract": "Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.\nContains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).",
+      "tags": "Past",
+      "date": "2022-02-17T15:00:00Z",
+      "date_end": "2022-02-17T16:00:00Z",
+      "time_zone": "UK"
+    },
+    {
+      "id": "Bonn22",
+      "title": "Decoupling for Cantor sets on the parabola",
+      "type": "Workshop",
+      "event": "Workshop on Harmonic analysis, Singular Integrals and PDEs (HIM, Bonn)",
+      "url": "https://www.him.uni-bonn.de/programs/current-trimester-program/interactions-geometric-singular-pde/workshop-on-harmonic-analysis-singular-integrals-and-pdes-january-31-february-4-2022/",
+      "abstract": "Decoupling estimates aim to study the \"amount of cancellation\" that can occur when we add up functions whose Fourier transforms are supported in different regions of space. In this talk I will describe decoupling estimates for a Cantor set supported in the parabola. I will discuss how both curvature and sparsity (or lack of arithmetic structure) can separately give rise to decoupling estimates, and how these two sources of \"cancellation\" can be combined to obtain improved estimates for sets that have both sparsity and curvature. No knowledge of what a decoupling estimate is will be assumed. Based on joint work with Alan Chang, Rachel Greenfeld, Asgar Jamneshan, José Madrid and Zane Li",
+      "tags": "Past",
+      "date": "2022-02-03T12:00:00Z",
+      "date_end": "2022-02-03T13:00:00Z",
+      "time_zone": "EU"
+    },
+    {
+      "id": "VHAS2021",
+      "title": "Decoupling, Cantor sets and additive combinatorics",
+      "type": "Seminar",
+      "event": "UK Virtual Harmonic Analysis Seminar",
+      "url": "https://sites.google.com/view/virtual-harmonic-analysis/home",
+      "abstract": "Decoupling and discrete restriction inequalities have been very fruitful in recent years to solve problems in additive combinatorics and analytic number theory. In this talk I will present some work in decoupling for Cantor sets, including Cantor sets on a parabola, decoupling for product sets, and give applications of these results to additive combinatorics. Time permitting, I will present some open problems.\nContains joint work with Alan Chang (Princeton), Rachel Greenfeld (UCLA), Asgar Jamneshan (Koç University), Zane Li (IU Bloomington), José Ramón Madrid Padilla (UCLA).",
+      "tags": "Past",
+      "date": "2021-10-20T15:00:00Z",
+      "date_end": "2021-10-20T16:00:00Z",
+      "time_zone": "UK"
+    },
+    {
+      "id": "UCLAP2021F",
+      "title": "The sensitivity theorem",
+      "type": "Seminar",
+      "event": "UCLA Participating Analysis Seminar",
+      "url": "https://secure.math.ucla.edu/seminars/display.php?&id=835533",
+      "abstract": "he sensitivity theorem (former sensitivity conjecture) relates multiple ways to quantify the complexity, or lack of \"smoothness\", of a boolean function f:{0,1}^n -> f : The minimum degree of a polynomial p(x):R^n -> R that extends f, the sensitivity s(f), and the block sensitivity bs(f).\nIn 2019, H.Huang solved the conjecture with a remarkably short proof. I will give a self-contained explanation of this proof, and motivate the importance of the (former) conjecture by relating it to other measures of complexity for boolean functions.",
+      "tags": "Past",
+      "date": "2021-11-16T15:00:00Z",
+      "date_end": "2021-11-16T16:00:00Z",
+      "time_zone": "PST"
+    },
+    {
+      "id": "PAW210816",
+      "title": "Uniform boundedness in operators parametrized by polynomial curves",
+      "type": "Seminar",
+      "event": "Probability and analysis webinar",
+      "url": "https://sites.google.com/view/paw-seminar",
+      "abstract": "Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.",
+      "tags": "Past",
+      "date": "2021-08-16T15:00:00Z",
+      "date_end": "2021-08-16T16:00:00Z",
+      "time_zone": "EST"
+    },
+    {
+      "id": "FRO210312",
+      "title": "Decoupling for Cantor Sets",
+      "type": "Workshop",
+      "event": "Fourier restriction online 2021",
+      "url": "https://sites.google.com/view/restriction2021/",
+      "abstract": "In this talk we discuss sharp ℓ2L2n estimates for Cantor sets. These estimates are related to the work of Biggs bounding the number of solutions to a certain type of Diophantine equations for integers contained in Ellipsephic sets, sets of numbers missing certain digits in base p. We discuss the connection between both problems, and exploit it to find computational methods to find sharp decoupling estimates. Joint work with A. Chang, R. Greenfeld, A. Jamneshan, Z.K. Li and J. Madrid.",
+      "tags": "Past",
+      "date": "2021-03-12T00:00:00Z",
+      "date_end": "2021-03-12T02:00:00Z",
+      "time_zone": "UTC"
+    },
+    {
+      "id": "UCD210211",
+      "title": "Uniform boundedness in operators parametrized by polynomial curves",
+      "type": "Seminar",
+      "event": "UC Davis Student-Run Analysis and PDE",
+      "abstract": "Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.",
+      "tags": "Past",
+      "date": "2021-02-11T14:00:00Z",
+      "date_end": "2021-02-11T15:00:00Z",
+      "time_zone": "PST"
+    },
+    {
+      "id": "OARS201207",
+      "title": "Uniform boundedness in operators parametrized by polynomial curves",
+      "type": "Seminar",
+      "event": "Online Analysis Research Seminar",
+      "url": "https://sites.google.com/view/o-a-r-s",
+      "abstract": "Multiple results in harmonic analysis involving integrals of functions over curves (such as restriction theorems, convolution estimates, maximal function estimates or decoupling estimates) depend strongly on the non-vanishing of the torsion of the associated curve. Over the past years there has been considerable interest in extending these results to a degenerate case where the torsion vanishes at a finite number of points by using the affine arc-length as an alternative integration measure. As a model case, multiple results have been proven in which the coordinate functions of the curve are polynomials. In this case one expects the bounds of the operators to depend only on the degree of the polynomial. In this talk I will introduce and motivate the concept of affine arclength measure, provide new decomposition theorems for polynomial curves over characteristic zero local fields, and provide some applications to uniformity results in harmonic analysis.",
+      "tags": "Past",
+      "date": "2020-12-07T17:00:00Z",
+      "date_end": "2020-12-07T18:00:00Z",
+      "time_zone": "CEST"
+    },
+    {
+      "id": "UBUAB201109",
+      "title": "Uniform boundedness in operators parametrized by polynomial curves",
+      "type": "Seminar",
+      "event": "Seminari d'Anàlisi UB-UAB",
+      "tags": "Past",
+      "date": "2020-11-09T15:00:00Z",
+      "date_end": "2020-11-09T16:00:00Z",
+      "time_zone": "CEST"
+    },
+    {
+      "id": "SiMBa201021",
+      "title": "Decoupling and applications: from PDEs to Number Theory.",
+      "type": "Seminar",
+      "event": "SIMBa seminar (UB / BGSMATH)",
+      "url": "http://www.ub.edu/simba/en/",
+      "abstract": "Decoupling estimates were introduced by Wolff [1] in order to improve local smoothing estimates for the wave equation. Since then, they have found multiple applications in analysis: from PDEs and restriction theory, to additive number theory, where Bourgain, Demeter and Guth[2] used decoupling-type estimates to prove the main conjecture of the Vinogradov mean value theorem for d>3.\nIn this talk I will explain what decoupling estimates are, I will talk about its applications to the Vinogradov Mean Value theorem and local smoothing, and I will explain the main ingredients that go into (most) decoupling proofs\n[1] Wolff, T. (2000). Local smoothing type estimates on Lp for large p. Geometric & Functional Analysis GAFA\n[2] Bourgain, J., Demeter, C., & Guth, L. (2016). Proof of the main conjecture in Vinogradov's mean value theorem for degrees higher than three. Annals of Mathematics, 633-682.",
+      "tags": "Past",
+      "date": "2020-10-21T12:00:00Z",
+      "date_end": "2020-10-21T13:00:00Z",
+      "time_zone": "CEST"
+    },
+    {
+      "id": "CDS201019",
+      "title": "On Sparsity in Overparametrised Shallow ReLU Networks",
+      "type": "Seminar",
+      "event": "NYU, MaD Group Meeting",
+      "abstract": "The analysis of neural network training beyond their linearization regime remains an outstanding open question, even in the simplest setup of a single hidden-layer. The limit of infinitely wide networks provides an appealing route forward through the mean-field perspective, but a key challenge is to bring learning guarantees back to the finite-neuron setting, where practical algorithms operate. Towards closing this gap, and focusing on shallow neural networks, in this work we study the ability of different regularisation strategies to capture solutions requiring only a finite amount of neurons, even on the infinitely wide regime. Specifically, we consider (i) a form of implicit regularisation obtained by injecting noise into training targets [Blanc et al.~19], and (ii) the variation-norm regularisation [Bach~17], compatible with the mean-field scaling. Under mild assumptions on the activation function (satisfied for instance with ReLUs), we establish that both schemes are minimised by functions having only a finite number of neurons, irrespective of the amount of overparametrisation. We study the consequences of such property and describe the settings where one form of regularisation is favorable over the other.",
+      "tags": "Past",
+      "date": "2020-10-19T14:00:00Z",
+      "date_end": "2020-10-19T15:00:00Z",
+      "time_zone": "EST"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "UK_25",
+      "title": "UK Spectral Theory Network Worksho",
+      "url": "https://sites.google.com/view/uk-st/events/workshop-4-reading",
+      "location": "University of Reading",
+      "tags": "Current",
+      "date": "2025-08-26",
+      "date_end": "2025-08-29"
+    },
+    {
+      "id": "Haagen_25",
+      "title": "Workshop on spectral geometry, PDEs and mathematical physics",
+      "url": "https://www.fernuni-hagen.de/analysis/en/research/events/workshop-spectral-geometry.shtml",
+      "location": "FernUni Hagen",
+      "tags": "Current",
+      "date": "2025-07-28",
+      "date_end": "2025-07-30"
+    },
+    {
+      "id": "NY_Irina_25",
+      "title": "Flatiron Institute",
+      "location": "New York",
+      "tags": "Current",
+      "date": "2025-07-14",
+      "date_end": "2025-07-25"
+    },
+    {
+      "id": "Rio_25",
+      "title": "Fourier Analysis and Beyond I",
+      "url": "https://impa.br/evento/fourier-analysis-beyond-i/",
+      "location": "IMPA",
+      "tags": "Past",
+      "date": "2025-06-30",
+      "date_end": "2025-07-04"
+    },
+    {
+      "id": "Paris_25",
+      "title": "Summer school in PDE and Probability",
+      "url": "https://indico.math.cnrs.fr/event/13554/timetable/#20250616",
+      "location": "Sorbonne Universite",
+      "tags": "Past",
+      "date": "2025-06-23",
+      "date_end": "2025-06-27"
+    },
+    {
+      "id": "Valentia_25",
+      "title": "Valentia Matematica",
+      "url": "https://sites.google.com/view/valentiamat/",
+      "location": "Valencia",
+      "tags": "Past",
+      "date": "2025-06-16",
+      "date_end": "2025-06-19"
+    },
+    {
+      "id": "Barcelona_25",
+      "title": "Modern trends in Fourier Analysis",
+      "url": "https://www.crm.cat/conference-modern-trends-in-fourier-analysis/",
+      "location": "Barcelona",
+      "tags": "Past",
+      "date": "2025-06-02",
+      "date_end": "2025-06-06"
+    },
+    {
+      "id": "Lyon_25_March",
+      "title": "Camille Jordan Institute in Lyon (Analysis Seminar)",
+      "url": "https://indico.math.cnrs.fr/event/12874/",
+      "location": "Lyon",
+      "tags": "Past",
+      "date": "2025-03-10",
+      "date_end": "2025-03-12"
+    },
+    {
+      "id": "Edin_25_March",
+      "title": "University of Edinburgh (Analysis Seminar)",
+      "url": "https://blogs.ed.ac.uk/analysis/analysis-seminar/",
+      "location": "University of Edinburgh",
+      "tags": "Past",
+      "date": "2025-03-01",
+      "date_end": "2025-03-04"
+    },
+    {
+      "id": "Jose_25_Feb",
+      "title": "Virginia Tech (Analysis Seminar)",
+      "url": "https://math.vt.edu/calendar.html",
+      "location": "Virginia Tech",
+      "tags": "Past",
+      "date": "2025-02-23",
+      "date_end": "2025-02-27"
+    },
+    {
+      "id": "NY_Simons_25_Wave",
+      "title": "Simon's collaboration on wave localization: Annual Meeting.",
+      "url": "https://cse.umn.edu/wave/events/2025-simons-collaboration-localization-waves-annual-meeting",
+      "location": "Flatiron Institute, NY",
+      "tags": "Past",
+      "date": "2025-02-20",
+      "date_end": "2025-02-21"
+    },
+    {
+      "id": "NY_Simons_25_Computation",
+      "title": "MPS Workshop on Computation in Mathematics",
+      "url": "https://www.simonsfoundation.org",
+      "location": "Flatiron Institute, NY",
+      "tags": "Past",
+      "date": "2025-02-18",
+      "date_end": "2025-02-18"
+    },
+    {
+      "id": "BCN_25_Jan",
+      "title": "Seminari d'Analisi UAB-UB",
+      "url": "#",
+      "location": "Universitat Autonoma de Barcelona",
+      "tags": "Past",
+      "date": "2025-01-13",
+      "date_end": "2025-01-17"
+    },
+    {
+      "id": "Bonn_24_Fall",
+      "title": "Boolean Analysis in Computer Science",
+      "url": "https://www.mathematics.uni-bonn.de/him/programs/current-trimester-program/him-dual-trimester-program-boolean-analysis-in-computer-science",
+      "location": "Hausdorff Insitute of Mathematics, Bonn",
+      "tags": "Past",
+      "date": "2024-10-11",
+      "date_end": "2024-10-25"
+    },
+    {
+      "id": "MFO_24",
+      "title": "Arbeitsgemeinschaft: Quantum Signal Processing and Nonlinear Fourier Analysis",
+      "url": "https://www.mfo.de/occasion/2441",
+      "location": "MFO Oberwolfach",
+      "tags": "Past",
+      "date": "2024-10-06",
+      "date_end": "2024-10-11"
+    },
+    {
+      "id": "BAC_24",
+      "title": "Barcelona Analysis Conference",
+      "url": "https://www.crm.cat/barcelona-analysis-conference-bac24/",
+      "location": "Barcelona",
+      "tags": "Past",
+      "date": "2024-06-03",
+      "date_end": "2024-06-03"
+    },
+    {
+      "id": "Bonn_24_summer",
+      "title": "Uniformity and Stability of Oscillatory Integrals",
+      "url": "#",
+      "location": "Hausdorff Center for Mathematics, Bonn",
+      "tags": "Past",
+      "date": "2024-07-08",
+      "date_end": "2022-07-12"
+    },
+    {
+      "id": "Bonn_24_01",
+      "title": "Dual Trimester Program: Synergies between modern probability, geometric analysis and stochastic geometry",
+      "url": "#",
+      "location": "Hausdorff Insitute of Mathematics, Bonn",
+      "tags": "Past",
+      "date": "2024-01-08",
+      "date_end": "2022-01-31"
+    },
+    {
+      "id": "NTNU",
+      "title": "NTNU",
+      "url": "#",
+      "location": "Trondheim, NO",
+      "tags": "Past",
+      "date": "2023-10-20",
+      "date_end": "2022-11-03"
+    },
+    {
+      "id": "Microsoft Reseach",
+      "title": "Microsoft Reseach Internship",
+      "url": "#",
+      "location": "Seattle, WA",
+      "tags": "Past",
+      "date": "2023-05-30",
+      "date_end": "2022-09-01"
+    },
+    {
+      "id": "Rochester",
+      "title": "University of Rochester",
+      "url": "#",
+      "location": "Rochester, NY",
+      "tags": "Past",
+      "date": "2023-05-22",
+      "date_end": "2022-05-25"
+    },
+    {
+      "id": "Stanford",
+      "title": "Stanford University",
+      "url": "#",
+      "location": "Palo Alto, California",
+      "tags": "Past",
+      "date": "2022-10-17",
+      "date_end": "2022-10-28"
+    },
+    {
+      "id": "Bonn",
+      "title": "Nodal domains and landscape functions",
+      "url": "https://www.math.uni-bonn.de/ag/ana/WiSe2223/summer_school/",
+      "location": "Kopp, Germany",
+      "tags": "Past",
+      "date": "2022-10-02",
+      "date_end": "2022-10-07"
+    },
+    {
+      "id": "UMN",
+      "title": "University of Minneapolis",
+      "url": "#",
+      "location": "UMN, Minneapolis",
+      "tags": "Past",
+      "date": "2022-09-07",
+      "date_end": "2022-09-28"
+    },
+    {
+      "id": "Madison",
+      "title": "Harmonic analysis on manifolds summer school",
+      "url": "https://sites.google.com/view/2022summerschool/main-page",
+      "location": "UW Madison, WI",
+      "tags": "Past",
+      "date": "2022-08-01",
+      "date_end": "2022-08-05"
+    },
+    {
+      "id": "COLT22",
+      "title": "COLT",
+      "url": "http://learningtheory.org/colt2022/",
+      "location": "London",
+      "tags": "Past",
+      "date": "2022-07-02",
+      "date_end": "2022-07-05"
+    },
+    {
+      "id": "Edinburgh",
+      "title": "Fourier Analysis @200",
+      "url": "https://www.icms.org.uk/workshops/2022/fourier-analysis-200",
+      "location": "ICMS, Edinburgh",
+      "tags": "Past",
+      "date": "2022-06-23",
+      "date_end": "2022-07-01"
+    },
+    {
+      "id": "Verdera",
+      "title": "Workshop on Analysis and PDEs",
+      "url": "https://www.crm.cat/workshop-on-analysis-and-pdes//",
+      "location": "CRM -  Barcelona",
+      "tags": "Past",
+      "date": "2022-06-23",
+      "date_end": "2022-06-23"
+    },
+    {
+      "id": "Princeton_ML",
+      "title": "Princeton Machine Learning Theory Summer School 2022",
+      "url": "https://mlschool.princeton.edu/",
+      "location": "Princeton",
+      "tags": "Past",
+      "date": "2022-06-13",
+      "date_end": "2022-06-17"
+    },
+    {
+      "id": "AIM_Hypercube",
+      "title": "Analysis on the hypercube with applications to quantum computing",
+      "url": "https://aimath.org/workshops/upcoming/hypercubequantum/",
+      "location": "AIM, San Jose",
+      "tags": "Past",
+      "date": "2022-06-06",
+      "date_end": "2022-06-10"
+    },
+    {
+      "id": "CBMS",
+      "title": "CBMS Conference",
+      "url": "https://cbms2020.math.fsu.edu/",
+      "location": "FSU, Tallahasee",
+      "tags": "Past",
+      "date": "2022-05-21",
+      "date_end": "2022-05-28"
+    },
+    {
+      "id": "ETHZ",
+      "title": "ETH Zurich",
+      "url": "https://math.ethz.ch/",
+      "location": "Visiting Joao P. Ramos",
+      "tags": "Past",
+      "date": "2022-03-14",
+      "date_end": "2022-03-19"
+    },
+    {
+      "id": "BCAM",
+      "title": "Basque Center for Applied Mathematics",
+      "url": "http://www.bcamath.org/en/",
+      "location": "Visiting Mateus Costa da Sousa.",
+      "tags": "Past",
+      "date": "2022-03-08",
+      "date_end": "2022-03-14"
+    },
+    {
+      "id": "HIM2022W",
+      "title": "Interactions between Geometric measure theory, Singular integrals, and PDE",
+      "url": "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/",
+      "location": "Haudroff Mathematical Institute, Bonn, Germany",
+      "tags": "Past",
+      "date": "2022-01-23",
+      "date_end": "2022-03-05"
+    },
+    {
+      "id": "Quantum2021",
+      "title": "Summer School on discrete analysis and complexity of quantum algorithms",
+      "url": "https://sites.google.com/view/paata/quantum",
+      "location": "Online",
+      "tags": "Past",
+      "date": "2021-10-11",
+      "date_end": "2021-10-15"
+    },
+    {
+      "id": "Kopp2021",
+      "title": "Brascamp-Lieb inequalities Summer School",
+      "url": "https://www.math.uni-bonn.de/ag/ana/WiSe2122/BL-school/",
+      "location": "Wolffhotel, Kopp, Germany",
+      "tags": "Past",
+      "date": "2021-09-26",
+      "date_end": "2021-10-01"
+    },
+    {
+      "id": "HIM2021Su2",
+      "title": "Harmonic Analysis and Analytic Number Theory, Dual trimester program",
+      "url": "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/",
+      "location": "Haudroff Mathematical Institute, Bonn, Germany",
+      "tags": "Past",
+      "date": "2021-08-01",
+      "date_end": "2021-08-20"
+    },
+    {
+      "id": "HIM2021Su1",
+      "title": "Harmonic Analysis and Analytic Number Theory, Dual trimester program",
+      "url": "https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/",
+      "location": "Haudroff Mathematical Institute, Bonn, Germany",
+      "tags": "Past",
+      "date": "2021-05-03",
+      "date_end": "2021-06-26"
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Teaching Assistant",
+      "role": "TA",
+      "institution": "ETH Zurich",
+      "term": "2023-2025",
+      "year": "2024",
+      "description": "Various courses during postdoc"
+    },
+    {
+      "course": "Teaching Assistant — UCLA Mathematics",
+      "role": "TA",
+      "institution": "UCLA",
+      "term": "2018-2023",
+      "year": "2022",
+      "description": "Various undergraduate math courses during PhD"
+    }
+  ]
+}

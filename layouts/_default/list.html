@@ -1,12 +1,19 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+
 {{ $pages := .Pages.ByDate.Reverse }}
 {{ range $pages }}
 <div class="entry">
   <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with .Params.authors }}<p class="entry-authors">{{ . }}</p>{{ end }}
+  {{ with .Params.journal }}<p class="entry-journal">{{ . }}</p>{{ end }}
   {{ with .Params.event }}<p class="entry-meta">{{ . }}{{ with $.Params.type }} — {{ . }}{{ end }}</p>{{ end }}
-  {{ if .Truncated }}{{ .Summary }}{{ else }}{{ .Content }}{{ end }}
+  {{ with .Params.description }}<p class="entry-desc">{{ . }}</p>{{ end }}
+  <p class="entry-links">
+    {{ with .Params.arxiv }}<a href="{{ . }}">arXiv</a>{{ end }}
+    {{ with .Params.pdf }}<a href="{{ . }}">PDF</a>{{ end }}
+  </p>
 </div>
 {{ end }}
 {{ end }}
