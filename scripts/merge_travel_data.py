@@ -301,8 +301,7 @@ def main():
     if update_google_sheet(merged_travel):
         print("Google Sheet updated successfully")
     else:
-        print("Failed to update Google Sheet")
-        return False
+        print("Failed to update Google Sheet, but continuing with Hugo file updates...")
     
     # Update Hugo files
     print("\n=== Updating Hugo files ===")
