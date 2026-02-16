@@ -1,0 +1,41 @@
+baseURL = "https://manolo-assistant.github.io/academic-site/"
+languageCode = "en-us"
+title = "Jaume de Dios Pont"
+theme = ""
+
+[params]
+  author = "Jaume de Dios Pont"
+  description = "Mathematician — NYU Center for Data Science"
+  profileImage = "/img/profile.jpg"
+  email = "jdedios@nyu.edu"
+  scholar = "https://scholar.google.com/citations?user=gYj6GRoAAAAJ"
+  github = "https://github.com/jaumededios"
+  cv_pdf = "/cv.pdf"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML"]
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+  [[menu.main]]
+    name = "Talks"
+    url = "/talks/"
+    weight = 3
+  [[menu.main]]
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 4
+  [[menu.main]]
+    name = "CV"
+    url = "/cv.pdf"
+    weight = 5

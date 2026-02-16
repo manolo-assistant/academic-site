@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} — {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+      <div class="nav-links">
+        {{ range .Site.Menus.main }}
+          <a href="{{ .URL | relURL }}"{{ if eq .Name "CV" }} target="_blank"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </nav>
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="footer">
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}. Built with <a href="https://gohugo.io">Hugo</a>.</p>
+  </footer>
+</body>
+</html>

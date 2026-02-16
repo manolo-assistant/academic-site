@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="profile">
+  <div class="profile-photo">
+    {{ if .Site.Params.profileImage }}
+    <img src="{{ .Site.Params.profileImage | relURL }}" alt="{{ .Site.Params.author }}">
+    {{ end }}
+  </div>
+  <div class="profile-info">
+    <h1>{{ .Site.Params.author }}</h1>
+    <p class="subtitle">{{ .Site.Params.description }}</p>
+    <div class="profile-links">
+      {{ with .Site.Params.email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
+      {{ with .Site.Params.scholar }}<a href="{{ . }}">Scholar</a>{{ end }}
+      {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a>{{ end }}
+      {{ with .Site.Params.cv_pdf }}<a href="{{ . | relURL }}">CV (PDF)</a>{{ end }}
+    </div>
+  </div>
+</div>
+
+<section class="about">
+  {{ .Content }}
+</section>
+{{ end }}

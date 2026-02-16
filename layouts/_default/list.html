@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ $pages := .Pages.ByParam "year" }}
+{{ range $pages.Reverse }}
+<div class="entry">
+  <h3>{{ .Title }}</h3>
+  {{ .Content }}
+</div>
+{{ end }}
+{{ end }}
