@@ -90,22 +90,26 @@ def main():
     # Read template
     tex = template.read_text()
 
-    # Replace sections
+    # Replace sections (using lambda to avoid backslash interpretation in replacement)
+    pub_tex = build_publications_tex(data.get("publications", []))
+    talks_tex = build_talks_tex(data.get("talks", []))
+    teach_tex = build_teaching_tex(data.get("teaching", []))
+
     tex = re.sub(
         r"% PUBLICATIONS_START.*?% PUBLICATIONS_END",
-        build_publications_tex(data.get("publications", [])),
+        lambda m: pub_tex,
         tex,
         flags=re.DOTALL,
     )
     tex = re.sub(
         r"% TALKS_START.*?% TALKS_END",
-        build_talks_tex(data.get("talks", [])),
+        lambda m: talks_tex,
         tex,
         flags=re.DOTALL,
     )
     tex = re.sub(
         r"% TEACHING_START.*?% TEACHING_END",
-        build_teaching_tex(data.get("teaching", [])),
+        lambda m: teach_tex,
         tex,
         flags=re.DOTALL,
     )
