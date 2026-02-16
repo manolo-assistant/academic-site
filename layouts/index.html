@@ -2,7 +2,7 @@
 <div class="profile">
   <div class="profile-photo">
     {{ if .Site.Params.profileImage }}
-    <img src="{{ .Site.Params.profileImage | relURL }}" alt="{{ .Site.Params.author }}" loading="lazy">
+    <img src="{{ .Site.Params.profileImage | relURL }}" alt="{{ .Site.Params.author }}">
     {{ end }}
   </div>
   <div class="profile-info">

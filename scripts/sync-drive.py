@@ -105,6 +105,38 @@ EXTRA_PUB_INFO = {
 }
 
 
+# Additional talks from the LaTeX CV source that aren't in the published spreadsheet.
+# Verified against: data/cv-spreadsheet/cv-latex/Curriculum Vitae copy/main.tex
+EXTRA_TALKS = [
+    # Hot Spots conjecture talks (2024-2025)
+    {"id": "ethz_hotspots_24", "title": "Convex sets can have interior hot spots", "type": "Seminar", "event": "ETHZ Analysis Seminar", "tags": "Past", "date": "2024-10-15T15:00:00Z"},
+    {"id": "simons_wave_24", "title": "Convex sets can have interior hot spots", "type": "Seminar", "event": "Simons WAVE Collaboration Seminar", "tags": "Past", "date": "2024-11-15T15:00:00Z"},
+    {"id": "hcm_hotspots_24", "title": "Convex sets can have interior hot spots", "type": "Seminar", "event": "HCM Analysis and PDE Seminar", "tags": "Past", "date": "2024-11-20T15:00:00Z"},
+    {"id": "uab_hotspots_25", "title": "Convex sets can have interior hot spots", "type": "Seminar", "event": "UAB Analysis Seminar", "tags": "Past", "date": "2025-01-15T15:00:00Z"},
+    {"id": "vt_hotspots_25", "title": "Convex sets can have interior hot spots", "type": "Seminar", "event": "Virginia Tech PDE Seminar", "tags": "Past", "date": "2025-02-25T15:00:00Z"},
+    {"id": "edinburgh_25", "title": "Convex sets can have interior hot spots", "type": "Seminar", "event": "Edinburgh Analysis Seminar", "tags": "Past", "date": "2025-03-03T15:00:00Z"},
+    {"id": "lyon_25", "title": "Convex sets can have interior hot spots", "type": "Seminar", "event": "Lyon University Analysis Seminar", "tags": "Past", "date": "2025-03-10T15:00:00Z"},
+    # Sampling from Log-Concave Distributions talks (2022-2024)
+    {"id": "nyu_cs_22", "title": "Sampling from Log-Concave Distributions", "type": "Seminar", "event": "NYU Courant (Computer Science)", "tags": "Past", "date": "2022-11-15T15:00:00Z"},
+    {"id": "msr_theory_22", "title": "Sampling from Log-Concave Distributions", "type": "Seminar", "event": "Microsoft Research Theory Seminar", "tags": "Past", "date": "2022-12-15T15:00:00Z"},
+    {"id": "nyu_math_23", "title": "Sampling from Log-Concave Distributions", "type": "Seminar", "event": "NYU Courant (Mathematics)", "tags": "Past", "date": "2023-02-15T15:00:00Z"},
+    {"id": "rochester_23", "title": "Sampling from Log-Concave Distributions", "type": "Seminar", "event": "University of Rochester", "tags": "Past", "date": "2023-05-22T15:00:00Z"},
+    {"id": "hcm_bonn_24", "title": "Sampling from Log-Concave Distributions", "type": "Seminar", "event": "HCM Bonn", "tags": "Past", "date": "2024-01-15T15:00:00Z"},
+    {"id": "birs_granada_24", "title": "Sampling from Log-Concave Distributions", "type": "Workshop", "event": "BIRS Granada: PDE Methods in Machine Learning", "tags": "Past", "date": "2024-06-15T15:00:00Z"},
+    # Decoupling + additive combinatorics (missing from CSV)
+    {"id": "stanford_22", "title": "Interactions between Fourier decoupling, fractal sets, and additive combinatorics", "type": "Seminar", "event": "Stanford University Analysis and PDE Seminar", "tags": "Past", "date": "2022-10-20T15:00:00Z"},
+    {"id": "ntnu_23", "title": "Interactions between Fourier decoupling, fractal sets, and additive combinatorics", "type": "Seminar", "event": "NTNU Analysis and PDE Seminar", "tags": "Past", "date": "2023-11-01T15:00:00Z"},
+    # Sensitivity theorem talks
+    {"id": "aim_sensitivity_22", "title": "The Sensitivity Theorem", "type": "Workshop", "event": "AIM Workshop Talk", "tags": "Past", "date": "2022-06-08T15:00:00Z"},
+    {"id": "stanford_kiddie_22", "title": "The Sensitivity Theorem", "type": "Seminar", "event": "Stanford Kiddie Colloquium", "tags": "Past", "date": "2022-10-22T15:00:00Z"},
+    # Expository talks
+    {"id": "msr_decoupling_23", "title": "Decoupling with applications from PDEs to Number Theory", "type": "Seminar", "event": "Microsoft Research Foundations Seminar", "tags": "Past", "date": "2023-06-15T15:00:00Z"},
+    {"id": "mfo_quantum_24", "title": "The quantum Fourier transform and Shor's algorithm", "type": "Workshop", "event": "MFO (Oberwolfach)", "tags": "Past", "date": "2024-10-08T15:00:00Z"},
+    # Uniformity talks
+    {"id": "ethz_uniform_22", "title": "Uniformly bounding operators defined by polynomial curves", "type": "Seminar", "event": "ETHZ Analysis Seminar", "tags": "Past", "date": "2022-03-15T15:00:00Z"},
+]
+
+
 def slugify(text: str) -> str:
     text = text.lower().strip()
     text = re.sub(r"[^\w\s-]", "", text)
@@ -313,6 +345,13 @@ def main():
     print("\nFetching arXiv data...")
     papers = fetch_arxiv_papers(ARXIV_IDS)
     print(f"  Papers: {len(papers)}")
+
+    # Merge extra talks from LaTeX CV (avoid duplicates by id)
+    csv_ids = {r.get("id", "") for r in talks}
+    for extra in EXTRA_TALKS:
+        if extra["id"] not in csv_ids:
+            talks.append(extra)
+    print(f"  Talks after merging LaTeX CV extras: {len(talks)}")
 
     print("\nGenerating Hugo content...")
     publications = generate_publications(papers)
