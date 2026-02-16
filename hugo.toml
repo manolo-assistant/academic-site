@@ -38,7 +38,4 @@ title = "Jaume de Dios Pont"
     name = "CV"
     url = "/cv.pdf"
     weight = 5
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 6
+  # Contact removed — email in footer
