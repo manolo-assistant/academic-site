@@ -278,6 +278,9 @@ def main():
     cv_pubs = read_tsv(f"{cv_master_dir}/cv-papers.tsv")
     hugo_pubs = read_hugo_publications(hugo_pubs_dir)
     
+    # Debug: print what we have
+    print(f"CV papers sample: {cv_pubs[0] if cv_pubs else 'None'}")
+    
     # Merge and enhance
     enhanced_pubs = merge_and_enhance_publications(unified_pubs, cv_pubs, hugo_pubs)
     
