@@ -9,7 +9,7 @@ title = "Jaume de Dios Pont"
   email = "jdedios@nyu.edu"
   scholar = "https://scholar.google.com/citations?user=gYj6GRoAAAAJ"
   github = "https://github.com/jaumededios"
-  cv_pdf = "/cv.pdf"
+  cv_pdf = "cv.pdf"
 
 [markup.goldmark.renderer]
   unsafe = true
