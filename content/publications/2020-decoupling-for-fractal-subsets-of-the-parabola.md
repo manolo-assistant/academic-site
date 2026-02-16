@@ -5,7 +5,7 @@ type: "preprint"
 authors: "Alan Chang, Jaume de Dios, Rachel Greenfeld, Asgar Jamneshan, Zane Kun Li, José Madrid"
 year: "2020"
 arxiv: "2012.11458"
-url: "https://arxiv.org/abs/2012.11458"
+paper_url: "https://arxiv.org/abs/2012.11458"
 featured_image: "/img/papers/decoupling-for-fractal-subsets-of-the-parabola.png"
 ---
 

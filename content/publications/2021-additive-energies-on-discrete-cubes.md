@@ -5,7 +5,7 @@ type: "preprint"
 authors: "Jaume de Dios, Rachel Greenfeld, Paata Ivanisvili, José Madrid"
 year: "2021"
 arxiv: "2112.09352"
-url: "https://arxiv.org/abs/2112.09352"
+paper_url: "https://arxiv.org/abs/2112.09352"
 ---
 
 **Authors:** Jaume de Dios, Rachel Greenfeld, Paata Ivanisvili, José Madrid

@@ -5,7 +5,7 @@ type: "paper"
 authors: "Sitan Chen, Jaume de Dios, Jun-Ting Hsieh, Hsin-Yuan Huang, Jane Lange, Jerry Li"
 year: "2024"
 arxiv: "2409.03684"
-url: "https://arxiv.org/abs/2409.03684"
+paper_url: "https://arxiv.org/abs/2409.03684"
 ---
 
 **Authors:** Sitan Chen, Jaume de Dios, Jun-Ting Hsieh, Hsin-Yuan Huang, Jane Lange, Jerry Li

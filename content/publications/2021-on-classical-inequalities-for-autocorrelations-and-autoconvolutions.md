@@ -5,7 +5,7 @@ type: "preprint"
 authors: "Jaume de Dios, José Madrid"
 year: "2021"
 arxiv: "2106.13873"
-url: "https://arxiv.org/abs/2106.13873"
+paper_url: "https://arxiv.org/abs/2106.13873"
 featured_image: "/img/papers/on-classical-inequalities-for-autocorrelations-and-autoconvolutions.png"
 ---
 

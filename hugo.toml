@@ -20,19 +20,19 @@ title = "Jaume de Dios Pont"
 [menu]
   [[menu.main]]
     name = "About"
-    url = "/#about"
+    url = "/"
     weight = 1
   [[menu.main]]
     name = "Talks & Travel"
-    url = "/#talks"
+    url = "/talks/"
     weight = 2
   [[menu.main]]
     name = "Publications"
-    url = "/#publications"
+    url = "/publications/"
     weight = 3
   [[menu.main]]
     name = "Teaching"
-    url = "/#teaching"
+    url = "/teaching/"
     weight = 4
   [[menu.main]]
     name = "CV"
@@ -40,5 +40,5 @@ title = "Jaume de Dios Pont"
     weight = 5
   [[menu.main]]
     name = "Contact"
-    url = "/#contact"
+    url = "/contact/"
     weight = 6

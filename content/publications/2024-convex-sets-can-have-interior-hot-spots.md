@@ -5,7 +5,7 @@ type: "preprint"
 authors: "Jaume de Dios"
 year: "2024"
 arxiv: "2412.06344"
-url: "https://arxiv.org/abs/2412.06344"
+paper_url: "https://arxiv.org/abs/2412.06344"
 featured_image: "/img/papers/convex-sets-can-have-interior-hot-spots.png"
 ---
 

@@ -5,7 +5,7 @@ type: "preprint"
 authors: "Jane Carlen, Jaume de Dios, Cassidy Mentus, Shyr-Shea Chang, Stephanie Wang, Mason A. Porter"
 year: "2019"
 arxiv: "1908.09440"
-url: "https://arxiv.org/abs/1908.09440"
+paper_url: "https://arxiv.org/abs/1908.09440"
 featured_image: "/img/papers/role-detection-in-bicycle-sharing-networks-using-multilayer-stochastic-block-models.png"
 ---
 

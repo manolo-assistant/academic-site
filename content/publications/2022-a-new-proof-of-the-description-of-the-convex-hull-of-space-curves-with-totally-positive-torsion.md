@@ -5,7 +5,7 @@ type: "preprint"
 authors: "Jaume de Dios, Paata Ivanisvili, José Madrid"
 year: "2022"
 arxiv: "2201.12932"
-url: "https://arxiv.org/abs/2201.12932"
+paper_url: "https://arxiv.org/abs/2201.12932"
 featured_image: "/img/papers/a-new-proof-of-the-description-of-the-convex-hull-of-space-curves-with-totally-positive-torsion.png"
 ---
 
