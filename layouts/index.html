@@ -5,7 +5,7 @@
   <div class="profile-row">
     <div class="profile-photo">
       {{ with .Site.Params.profileImage }}
-      <img src="{{ . | relURL }}" alt="{{ $.Site.Params.author }}">
+      <img src="{{ . | absURL }}" alt="{{ $.Site.Params.author }}">
       {{ end }}
     </div>
     <div class="profile-bio">
