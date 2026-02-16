@@ -1,7 +1,7 @@
 baseURL = "https://manolo-assistant.github.io/academic-site/"
 languageCode = "en-us"
 title = "Jaume de Dios Pont"
-theme = ""
+# No external theme — using custom layouts in layouts/
 
 [params]
   author = "Jaume de Dios Pont"
