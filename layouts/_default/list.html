@@ -1,30 +1,10 @@
 {{ define "main" }}
-<h1 class="page-title">{{ .Title }}</h1>
+<h1>{{ .Title }}</h1>
 {{ .Content }}
-
-{{ $pages := .Pages.ByDate.Reverse }}
-{{ $currentYear := "" }}
-{{ range $pages }}
-  {{ $year := (dateFormat "2006" .Date) }}
-  {{ if ne $year $currentYear }}
-    {{ if ne $currentYear "" }}</div>{{ end }}
-    <div class="year-group">
-    <div class="year-label">{{ $year }}</div>
-    {{ $currentYear = $year }}
-  {{ end }}
-  <div class="entry">
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{ with .Params.authors }}<p class="entry-authors">{{ . }}</p>{{ end }}
-    {{ with .Params.journal }}<p class="entry-journal">{{ . }}</p>{{ end }}
-    {{ with .Params.event }}<p class="entry-meta">{{ . }}{{ with $.Params.type }} · {{ . }}{{ end }}</p>{{ end }}
-    {{ with .Params.description }}<p class="entry-desc">{{ . }}</p>{{ end }}
-    {{ if or .Params.arxiv .Params.pdf }}
-    <div class="entry-links">
-      {{ with .Params.arxiv }}<a href="{{ . }}" target="_blank">arXiv</a>{{ end }}
-      {{ with .Params.pdf }}<a href="{{ . }}" target="_blank">PDF</a>{{ end }}
-    </div>
-    {{ end }}
-  </div>
+{{ range .Pages.ByDate.Reverse }}
+<div class="pub-item">
+  <h3 class="pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with .Params.event }}<p class="pub-venue">{{ . }}</p>{{ end }}
+</div>
 {{ end }}
-{{ if ne $currentYear "" }}</div>{{ end }}
 {{ end }}
