@@ -1,70 +1,46 @@
-%% Academic CV Template — auto-generated from data/cv.json
-%% Compile with: lualatex or pdflatex
-\documentclass[11pt,a4paper]{article}
+%% cv.tex — moderncv template for Jaume de Dios Pont
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
 
-\usepackage[margin=1in]{geometry}
-\usepackage{hyperref}
+\usepackage[scale=0.82]{geometry}
 \usepackage{enumitem}
-\usepackage{titlesec}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
 
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{12pt}{6pt}
-
-\setlength{\parindent}{0pt}
-\pagestyle{empty}
+% Personal data
+\name{Jaume}{de Dios Pont}
+\title{Faculty Fellow, NYU Center for Data Science}
+\email{jdedios@nyu.edu}
+\homepage{jaume.dedios.cat}
+\social[github]{jaumededios}
+\social[googlescholar]{gYj6GRoAAAAJ}
 
 \begin{document}
-
-\begin{center}
-{\LARGE \textbf{Jaume de Dios Pont}} \\[4pt]
-CDS Faculty Fellow, NYU Center for Data Science \\
-\href{mailto:jdedios@nyu.edu}{jdedios@nyu.edu} \quad
-\href{https://jaume.dedios.cat}{jaume.dedios.cat} \quad
-\href{https://scholar.google.com/citations?user=gYj6GRoAAAAJ}{Google Scholar}
-\end{center}
-
-\section{Education}
-\begin{itemize}[leftmargin=*, nosep]
-  \item \textbf{PhD Mathematics}, UCLA, 2023. Advisor: Terence Tao.
-  \item \textbf{MSc Mathematics}, ETH Zurich, 2018.
-  \item \textbf{BSc Mathematics \& BSc Physics}, Universitat Aut\`onoma de Barcelona, 2017.
-\end{itemize}
+\makecvtitle
 
 \section{Positions}
-\begin{itemize}[leftmargin=*, nosep]
-  \item \textbf{CDS Faculty Fellow}, NYU Center for Data Science, 2026--present.
-  \item \textbf{Postdoctoral Researcher}, ETH Zurich (with S. Mayboroda), 2023--2025.
-  \item \textbf{Research Intern}, Microsoft Research (ML Foundations), 2023.
-\end{itemize}
+\cventry{2026--present}{Faculty Fellow}{NYU Center for Data Science}{New York, NY}{}{}
+\cventry{2023--2025}{Postdoctoral Researcher}{ETH Z\"urich}{Z\"urich, Switzerland}{}{Advisor: Svitlana Mayboroda}
+\cventry{2022}{Research Intern}{Microsoft Research}{Redmond, WA}{}{ML Foundations group (S\'ebastien Bubeck)}
+
+\section{Education}
+\cventry{2018--2023}{Ph.D.\ in Mathematics}{UCLA}{Los Angeles, CA}{}{Advisor: Terence Tao}
+\cventry{2017--2018}{M.Sc.\ in Mathematics}{ETH Z\"urich}{Z\"urich, Switzerland}{}{}
+\cventry{2013--2017}{B.Sc.\ in Mathematics and Physics}{Universitat Aut\`onoma de Barcelona}{Barcelona, Spain}{}{}
 
 \section{Research Interests}
-Harmonic Analysis, Elliptic PDEs \& Spectral Theory, Convex Geometry, AI for Mathematics.
-
-%%% AUTO-GENERATED SECTIONS BELOW %%%
-%%% The build script (scripts/build-cv.py) replaces these markers with data from cv.json
+Harmonic analysis, spectral theory, convex geometry, AI for mathematics.
 
 % PUBLICATIONS_START
 \section{Publications \& Preprints}
-\begin{itemize}[leftmargin=*, nosep]
-  \item \textit{Placeholder publication entry.} (Synced from Google Drive data)
-\end{itemize}
+\textit{See Google Scholar for a full list.}
 % PUBLICATIONS_END
 
 % TALKS_START
 \section{Selected Talks}
-\begin{itemize}[leftmargin=*, nosep]
-  \item \textit{Placeholder talk entry.} (Synced from Google Drive data)
-\end{itemize}
+\textit{See website for full list.}
 % TALKS_END
 
 % TEACHING_START
-\section{Teaching}
-\begin{itemize}[leftmargin=*, nosep]
-  \item \textit{Placeholder teaching entry.} (Synced from Google Drive data)
-\end{itemize}
 % TEACHING_END
 
 \end{document}
