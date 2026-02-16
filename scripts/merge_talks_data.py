@@ -29,6 +29,23 @@ def read_csv(filepath):
         print(f"Error reading {filepath}: {e}")
     return data
 
+def read_tsv(filepath):
+    """Read TSV file and return list of dictionaries"""
+    data = []
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f, delimiter='\t')
+            for row in reader:
+                # Clean up any empty string values
+                cleaned_row = {k: v.strip() if v else '' for k, v in row.items()}
+                data.append(cleaned_row)
+        print(f"Read {len(data)} records from {filepath}")
+    except FileNotFoundError:
+        print(f"Warning: {filepath} not found")
+    except Exception as e:
+        print(f"Error reading {filepath}: {e}")
+    return data
+
 def read_hugo_talks(talks_dir):
     """Read existing Hugo talk files and extract metadata"""
     data = []
@@ -96,6 +113,30 @@ def read_hugo_talks(talks_dir):
     print(f"Read {len(data)} records from Hugo files")
     return data
 
+def read_vita_talks(filepath):
+    """Read vita-talks.tsv and convert to standard format"""
+    data = []
+    vita_data = read_tsv(filepath)
+    
+    for talk in vita_data:
+        # Convert vita format to standard format
+        # Note: vita-talks doesn't have date/event info, but has excellent abstracts
+        converted = {
+            'title': talk.get('title', ''),
+            'type': talk.get('type', '').title(),  # Convert to title case (Research -> Research)
+            'event': '',  # Not available in vita data
+            'date': '',   # Not available in vita data  
+            'url': '',    # Not available in vita data
+            'abstract': talk.get('abstract', ''),  # This is the key - full abstracts!
+            'tags': '',   # Could map from topics/tags if needed
+            'source': 'vita',
+            'vita_tag': talk.get('tag', '')  # Keep for matching
+        }
+        data.append(converted)
+    
+    print(f"Read {len(data)} records from vita talks")
+    return data
+
 def extract_url_from_body(body):
     """Extract URL from markdown body"""
     # Look for [Event page](URL) pattern
@@ -141,8 +182,37 @@ def create_dedup_key(talk):
     
     return f"{title}|{date_part}"
 
-def merge_and_deduplicate(unified_data, cv_data, hugo_data):
-    """Merge all data sources and deduplicate"""
+def title_similarity(title1, title2):
+    """Calculate simple similarity between two titles"""
+    if not title1 or not title2:
+        return 0.0
+    
+    # Normalize titles (lowercase, remove punctuation, extra spaces)
+    def normalize_title(title):
+        normalized = re.sub(r'[^\w\s]', '', title.lower())
+        normalized = re.sub(r'\s+', ' ', normalized).strip()
+        return normalized
+    
+    norm1 = normalize_title(title1)
+    norm2 = normalize_title(title2)
+    
+    if norm1 == norm2:
+        return 1.0
+    
+    # Simple word overlap similarity
+    words1 = set(norm1.split())
+    words2 = set(norm2.split())
+    
+    if not words1 or not words2:
+        return 0.0
+    
+    intersection = len(words1.intersection(words2))
+    union = len(words1.union(words2))
+    
+    return intersection / union if union > 0 else 0.0
+
+def merge_and_deduplicate(unified_data, cv_data, hugo_data, vita_data):
+    """Merge all data sources and deduplicate, prioritizing vita abstracts"""
     all_talks = []
     seen_keys = set()
     
@@ -152,13 +222,44 @@ def merge_and_deduplicate(unified_data, cv_data, hugo_data):
     for talk in cv_data:
         talk['source'] = 'cv'
     # hugo_data already has source info
+    # vita_data already has source info
     
-    # Merge all data
+    # First, create a map of vita talks by normalized title for abstract enhancement
+    vita_by_title = {}
+    for vita_talk in vita_data:
+        title = vita_talk.get('title', '').lower().strip()
+        if title and vita_talk.get('abstract', '').strip():
+            vita_by_title[title] = vita_talk
+    
+    # Merge non-vita data first
     all_data = unified_data + cv_data + hugo_data
     
     for talk in all_data:
         # Normalize date
         talk['date'] = normalize_date(talk.get('date', ''))
+        
+        # Try to enhance abstract from vita data
+        talk_title = talk.get('title', '').lower().strip()
+        best_match = None
+        best_similarity = 0.0
+        
+        # Look for exact or similar title match in vita data
+        for vita_title, vita_talk in vita_by_title.items():
+            similarity = title_similarity(talk_title, vita_title)
+            if similarity > best_similarity and similarity > 0.7:  # 70% similarity threshold
+                best_similarity = similarity
+                best_match = vita_talk
+        
+        # Use vita abstract if we found a good match and current abstract is weak
+        if (best_match and 
+            best_match.get('abstract', '').strip() and 
+            len(best_match.get('abstract', '')) > len(talk.get('abstract', ''))):
+            
+            old_abstract = talk.get('abstract', '')[:50] + "..." if talk.get('abstract', '') else "None"
+            talk['abstract'] = best_match['abstract']
+            print(f"Enhanced abstract for '{talk['title']}' (similarity: {best_similarity:.2f})")
+            print(f"  Old: {old_abstract}")
+            print(f"  New: {best_match['abstract'][:100]}...")
         
         # Create dedup key
         key = create_dedup_key(talk)
@@ -173,6 +274,7 @@ def merge_and_deduplicate(unified_data, cv_data, hugo_data):
     all_talks.sort(key=lambda x: x.get('date', ''), reverse=True)
     
     print(f"After deduplication: {len(all_talks)} unique talks")
+    print(f"Abstract enhancements: {len([t for t in all_talks if len(t.get('abstract', '')) > 200])} talks have substantial abstracts")
     return all_talks
 
 def search_for_abstract(talk):
@@ -419,9 +521,10 @@ def main():
     unified_data = read_csv(f"{data_dir}/unified-talks.csv")
     cv_data = read_csv(f"{data_dir}/cv-talks.csv") 
     hugo_data = read_hugo_talks(hugo_talks_dir)
+    vita_data = read_vita_talks(f"{data_dir}/vita-talks.tsv")
     
     # Merge and deduplicate
-    merged_talks = merge_and_deduplicate(unified_data, cv_data, hugo_data)
+    merged_talks = merge_and_deduplicate(unified_data, cv_data, hugo_data, vita_data)
     
     # Search for missing abstracts (only for talks with URLs)
     print("\n=== Searching for missing abstracts ===")
