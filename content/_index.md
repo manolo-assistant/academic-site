@@ -12,7 +12,7 @@ I was born in Barcelona, where I lived most of my life. I moved to Los Angeles i
 
 My graduate school was supported by a [UCLA dissertation year fellowship](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/dissertation-year-fellowship/), Teaching and Research Assistantships, a ["La Caixa"](https://fundacionlacaixa.org/en/la-caixa-foundation-postgraduate-fellowships-north-america-asia-pacific) post-graduate fellowship, and an [ESOP](https://www.ethz-foundation.ch/en/esop/) fellowship at ETHZ.
 
-My name is pronounced [ˈʒawmə] <a href="#" onclick="document.getElementById('namePronunciation').play(); return false;"><i class="fa-solid fa-volume-high"></i> 🔊</a>, my pronouns are he/him.
+My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="document.getElementById('namePronunciation').play()" title="Listen to pronunciation">🔊</button>, my pronouns are he/him.
 <audio id="namePronunciation"><source src="audio/jaume_pronunciation.mp3" type="audio/mpeg"></audio>
 
 ## Research Interests
