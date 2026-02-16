@@ -50,8 +50,8 @@ ARXIV_IDS = [
 
 # Extra metadata not available from arXiv
 EXTRA_PUB_INFO = {
-    "2508.16624": {
-        "journal": "Submitted to Annals of Mathematics (2025)",
+    "2508.16321": {
+        "journal": "Preprint (2025)",
         "description": "We identify the largest possible hot spots ratio over all connected Lipschitz domains in any dimension, settling a question about the degree of failure of Rauch's hot spots conjecture. As dimension grows, the sharp constant converges to √e.",
     },
     "2412.06344": {
@@ -86,7 +86,7 @@ EXTRA_PUB_INFO = {
         "journal": "Preprint (2021)",
         "description": "We study Barnard and Steinerberger's autocorrelation inequality — motivated by additive combinatorics — establishing existence of extremizers for Gaussian and indicator function weights.",
     },
-    "2012.13098": {
+    "2012.11458": {
         "journal": "Mathematische Zeitschrift (2022)",
         "description": "We generalize the celebrated Bourgain–Demeter decoupling theorem to fractal subsets of the parabola, reducing the problem to decoupling for the projected fractal set on the unit interval.",
     },

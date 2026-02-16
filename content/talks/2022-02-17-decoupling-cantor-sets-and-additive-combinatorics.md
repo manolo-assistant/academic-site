@@ -1,0 +1,16 @@
+---
+title: "Decoupling, Cantor sets, and additive combinatorics"
+date: 2022-02-17
+params:
+  type: "Seminar"
+  event: "University of Bristol's Analysis and Geometry Seminar"
+  tags: "Past"
+---
+
+**University of Bristol's Analysis and Geometry Seminar** — Seminar, 2022-02-17
+
+[Event page](https://sites.google.com/site/khughesmath/home/university-of-bristol-analysis-and-geometry)
+
+### Abstract
+
+Kevin Hughes - Math - University of Bristol's Analysis and GeometrySearch this siteEmbedded FilesSkip to main contentSkip to navigationKevin Hughes - MathHomeConference/workshop organizationHeilbronn Focused Research Workshop on Efficient Congruencing and Decoupling, June 2019University of Bristol's Analysis and GeometryEquality, Diversity and InclusionResearchLiterature: Discrete l^p-improvingLiterature: Regularity of maximal functionsPapersTalksCoursesArithmetic harmonic analysis - Fall 2021An Ode to Stein: N lectures in harmonic analysisDecoupling SeminarGalois Theory (MATH10080) Spring 2015Intro Analysis for PAD Autumn 2019Pointwise ergodic theorems for arithmetic setsNotesKevin Hughes - MathHomeConference/workshop organizationHeilbronn Focused Research Workshop on Efficient Congruencing and Decoupling, June 2019University of Bristol's Analysis and GeometryEquality, Diversity and InclusionResearchLiterature: Discrete l^p-improvingLiterature: Regularity of maximal functionsPapersTal

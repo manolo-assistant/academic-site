@@ -9,6 +9,3 @@ params:
 
 **Seminari d'Anàlisi UB-UAB** — Seminar, 2020-11-09
 
-
-
-
