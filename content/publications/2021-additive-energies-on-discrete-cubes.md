@@ -6,6 +6,7 @@ authors: "Jaume de Dios, Rachel Greenfeld, Paata Ivanisvili, José Madrid"
 year: "2021"
 arxiv: "2112.09352"
 paper_url: "https://arxiv.org/abs/2112.09352"
+featured_image: "/images/papers/add2021.png"
 ---
 
 **Authors:** Jaume de Dios, Rachel Greenfeld, Paata Ivanisvili, José Madrid

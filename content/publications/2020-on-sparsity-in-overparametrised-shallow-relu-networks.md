@@ -6,10 +6,10 @@ authors: "Joan Bruna, Jaume de Dios"
 year: "2020"
 arxiv: "2006.10225"
 paper_url: "https://arxiv.org/abs/2006.10225"
-featured_image: "/img/papers/on-sparsity-in-overparametrised-shallow-relu-networks.png"
+featured_image: "/images/papers/bruna-nn.png"
 ---
 
-![Featured Image](/img/papers/on-sparsity-in-overparametrised-shallow-relu-networks.png)
+![Featured Image](/images/papers/bruna-nn.png)
 
 **Authors:** Joan Bruna, Jaume de Dios
 

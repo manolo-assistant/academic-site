@@ -6,10 +6,10 @@ authors: "Jaume de Dios, José Madrid, Jan Grebík, Rachel Greenfeld"
 year: "2024"
 arxiv: "2408.02151"
 paper_url: "https://arxiv.org/abs/2408.02151"
-featured_image: "/img/papers/periodicity-and-decidability-of-translational-tilings-by-rational-polygonal-sets.png"
+featured_image: "/images/papers/periodicity-and-decidability-of-translational-tilings-by-rational-polygonal-sets.png"
 ---
 
-![Featured Image](/img/papers/periodicity-and-decidability-of-translational-tilings-by-rational-polygonal-sets.png)
+![Featured Image](/images/papers/periodicity-and-decidability-of-translational-tilings-by-rational-polygonal-sets.png)
 
 **Authors:** Jaume de Dios, José Madrid, Jan Grebík, Rachel Greenfeld
 

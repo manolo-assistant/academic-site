@@ -6,10 +6,10 @@ authors: "Jaume de Dios"
 year: "2020"
 arxiv: "2003.14140"
 paper_url: "https://arxiv.org/abs/2003.14140"
-featured_image: "/img/papers/a-geometric-lemma-for-complex-polynomial-curves-with-applications-in-fourier-restriction-theory.png"
+featured_image: "/images/papers/curves2020.png"
 ---
 
-![Featured Image](/img/papers/a-geometric-lemma-for-complex-polynomial-curves-with-applications-in-fourier-restriction-theory.png)
+![Featured Image](/images/papers/curves2020.png)
 
 **Authors:** Jaume de Dios
 

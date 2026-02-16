@@ -6,6 +6,7 @@ authors: "Jaume de Dios, Helge Jørgen Samuelsen"
 year: "2023"
 arxiv: "2303.11693"
 paper_url: "https://arxiv.org/abs/2303.11693"
+featured_image: "/images/papers/uniform-restriction-v1.png"
 ---
 
 **Authors:** Jaume de Dios, Helge Jørgen Samuelsen

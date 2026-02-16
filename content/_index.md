@@ -28,3 +28,22 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 - **MSc Mathematics**, 2018 — ETH Zurich
 - **BSc Mathematics**, 2017 — Universitat Autònoma de Barcelona
 - **BSc Physics**, 2017 — Universitat Autònoma de Barcelona
+
+---
+
+<div class="section-header"><h2>Upcoming Talks</h2><a class="see-all-btn" href="{{< ref "/talks" >}}">See all talks →</a></div>
+
+<div class="upcoming-section">
+
+- **[Some Extreme Regimes of the Laplace Operator](https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/)**
+  <br><span class="entry-meta">2026 Simons Collaboration on Localization of Waves Annual Meeting · Workshop · February 19, 2026</span>
+
+</div>
+
+<div class="section-header"><h2>Upcoming Travel</h2><a class="see-all-btn" href="{{< ref "/travel" >}}">See all travel →</a></div>
+
+<div class="upcoming-section">
+
+_No upcoming travel._
+
+</div>

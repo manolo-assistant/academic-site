@@ -6,10 +6,10 @@ authors: "Jaume de Dios"
 year: "2024"
 arxiv: "2412.06344"
 paper_url: "https://arxiv.org/abs/2412.06344"
-featured_image: "/img/papers/convex-sets-can-have-interior-hot-spots.png"
+featured_image: "/images/papers/convex-sets-can-have-interior-hot-spots.png"
 ---
 
-![Featured Image](/img/papers/convex-sets-can-have-interior-hot-spots.png)
+![Featured Image](/images/papers/convex-sets-can-have-interior-hot-spots.png)
 
 **Authors:** Jaume de Dios
 

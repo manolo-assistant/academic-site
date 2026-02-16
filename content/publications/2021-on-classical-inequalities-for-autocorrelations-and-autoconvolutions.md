@@ -6,10 +6,10 @@ authors: "Jaume de Dios, José Madrid"
 year: "2021"
 arxiv: "2106.13873"
 paper_url: "https://arxiv.org/abs/2106.13873"
-featured_image: "/img/papers/on-classical-inequalities-for-autocorrelations-and-autoconvolutions.png"
+featured_image: "/images/papers/acorr2021.png"
 ---
 
-![Featured Image](/img/papers/on-classical-inequalities-for-autocorrelations-and-autoconvolutions.png)
+![Featured Image](/images/papers/acorr2021.png)
 
 **Authors:** Jaume de Dios, José Madrid
 

@@ -6,10 +6,10 @@ authors: "Alan Chang, Jaume de Dios, Rachel Greenfeld, Asgar Jamneshan, Zane Kun
 year: "2020"
 arxiv: "2012.11458"
 paper_url: "https://arxiv.org/abs/2012.11458"
-featured_image: "/img/papers/decoupling-for-fractal-subsets-of-the-parabola.png"
+featured_image: "/images/papers/cantor-decoupling.png"
 ---
 
-![Featured Image](/img/papers/decoupling-for-fractal-subsets-of-the-parabola.png)
+![Featured Image](/images/papers/cantor-decoupling.png)
 
 **Authors:** Alan Chang, Jaume de Dios, Rachel Greenfeld, Asgar Jamneshan, Zane Kun Li, José Madrid
 
