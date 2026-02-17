@@ -497,3 +497,100 @@ article em { font-style: italic; }
   padding-bottom: 0.3rem;
   border-bottom: 1px solid var(--border);
 }
+
+/* ---- Talk & Travel Cards ---- */
+.talk-item, .travel-item {
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.15s ease;
+}
+.talk-item:hover, .travel-item:hover {
+  border-color: var(--accent);
+  box-shadow: var(--card-shadow);
+}
+.talk-item h3, .travel-item h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.2rem 0;
+  line-height: 1.35;
+}
+.talk-item h3 a, .travel-item h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+.talk-item h3 a:hover, .travel-item h3 a:hover {
+  color: var(--accent);
+}
+.talk-meta, .travel-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.5rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+.talk-meta span::after, .travel-meta span::after {
+  content: " · ";
+  color: var(--border);
+}
+.talk-meta span:last-child::after, .travel-meta span:last-child::after {
+  content: "";
+}
+
+/* Upcoming/Past section headers on talk/travel pages */
+.upcoming-past-section h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin: 1.5rem 0 0.75rem 0;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+/* Upcoming items on dedicated pages get accent left border */
+.upcoming-past-section:first-of-type .talk-item,
+.upcoming-past-section:first-of-type .travel-item {
+  border-left: 3px solid var(--accent);
+}
+
+/* ---- Compact upcoming list on main page ---- */
+.upcoming-compact {
+  margin: 0.5rem 0 1.5rem 0;
+}
+.upcoming-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+  gap: 1rem;
+}
+.upcoming-row:last-child { border-bottom: none; }
+.upcoming-row-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.upcoming-row-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+.upcoming-row-title a:hover { color: var(--accent); }
+.upcoming-row-meta {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .upcoming-row { flex-direction: column; gap: 0; }
+  .upcoming-row-title { white-space: normal; }
+}
