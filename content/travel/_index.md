@@ -9,7 +9,7 @@ date: 2024-01-01
   <h2>Upcoming</h2>
 
 <div class="travel-item">
-  <h3><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute — Spectral Geometry in the Clouds</a></h3>
+  <h3><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute - Geometric Spectral theory and Applications</a></h3>
   <div class="travel-meta">
     <span class="travel-location">Cambridge, UK</span>
     <span class="travel-date">Feb 21 – Mar 08, 2026</span>
@@ -17,7 +17,7 @@ date: 2024-01-01
 </div>
 
 <div class="travel-item">
-  <h3>COST mSPACE Kick-off Meeting</h3>
+  <h3><a href="https://sites.google.com/view/mspacekickoff/" target="_blank">COST mSPACE Kick-off Meeting</a></h3>
   <div class="travel-meta">
     <span class="travel-location">Milan, Italy</span>
     <span class="travel-date">Mar 16–19, 2026</span>

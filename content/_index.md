@@ -15,48 +15,52 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 
 ---
 
+<!-- BEGIN UPCOMING_TALKS -->
 <div class="section-header"><h2>Upcoming Talks</h2><a class="see-all-btn" href="{{< ref \"/talks\" >}}">See all talks →</a></div>
 
 <div class="upcoming-compact">
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></span>
-    <span class="upcoming-row-meta">Simons LoW · Feb 19</span>
+    <span class="upcoming-row-meta">2026 Simons Collaboration on Localization of Waves Annual Meeting · Feb 19</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">TBD</span>
-    <span class="upcoming-row-meta">COST mSPACE, Milan · Mar 16</span>
+    <span class="upcoming-row-meta">COST mSPACE Kick-off Meeting (Milan) · Mar 16</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">TBD</span>
-    <span class="upcoming-row-meta"><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Brig</a> · Mar 25</span>
+    <span class="upcoming-row-meta"><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Spring Meeting: Formalization and Proof Assistants (Brig)</a> · Mar 25</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">TBD</span>
     <span class="upcoming-row-meta">Brown University · May 01</span>
   </div>
 </div>
+<!-- END UPCOMING_TALKS -->
 
+<!-- BEGIN UPCOMING_TRAVEL -->
 <div class="section-header"><h2>Upcoming Travel</h2><a class="see-all-btn" href="{{< ref \"/travel\" >}}">See all travel →</a></div>
 
 <div class="upcoming-compact">
   <div class="upcoming-row">
-    <span class="upcoming-row-title"><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute — Geometric Spectral Theory and Applications</a></span>
-    <span class="upcoming-row-meta">Cambridge · Feb 21 – Mar 08</span>
+    <span class="upcoming-row-title"><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute - Geometric Spectral theory and Applications</a></span>
+    <span class="upcoming-row-meta">Cambridge, UK · Feb 21 – Mar 08</span>
   </div>
   <div class="upcoming-row">
-    <span class="upcoming-row-title">COST mSPACE Kick-off Meeting</span>
-    <span class="upcoming-row-meta">Milan · Mar 16–19</span>
+    <span class="upcoming-row-title"><a href="https://sites.google.com/view/mspacekickoff/" target="_blank">COST mSPACE Kick-off Meeting</a></span>
+    <span class="upcoming-row-meta">Milan, Italy · Mar 16–19</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Spring Meeting: Formalization and Proof Assistants</a></span>
-    <span class="upcoming-row-meta">Brig · Mar 25–27</span>
+    <span class="upcoming-row-meta">UniDistance Suisse, Brig, Switzerland · Mar 25–27</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">Visit to Brown University</span>
-    <span class="upcoming-row-meta">Providence · May 01–02</span>
+    <span class="upcoming-row-meta">Brown University, Providence, RI · May 01–02</span>
   </div>
   <div class="upcoming-row">
-    <span class="upcoming-row-title"><a href="https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa" target="_blank">ICERM: Formalization of Analysis</a></span>
-    <span class="upcoming-row-meta">Providence · May 11–15</span>
+    <span class="upcoming-row-title"><a href="https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa" target="_blank">ICERM: Techniques and Tools for the Formalization of Analysis</a></span>
+    <span class="upcoming-row-meta">ICERM, Providence, RI · May 11–15</span>
   </div>
 </div>
+<!-- END UPCOMING_TRAVEL -->
