@@ -35,8 +35,14 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 
 <div class="upcoming-section">
 
+- **[TBD](research)**
+  <br><span class="entry-meta">Brown University · Seminar · May 01, 2026</span>
+
+- **[TBD](https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants)**
+  <br><span class="entry-meta">SMS Spring Meeting: Formalization and Proof Assistants (Brig) · Workshop · Mar 25, 2026</span>
+
 - **[Some Extreme Regimes of the Laplace Operator](https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/)**
-  <br><span class="entry-meta">2026 Simons Collaboration on Localization of Waves Annual Meeting · Workshop · February 19, 2026</span>
+  <br><span class="entry-meta">2026 Simons Collaboration on Localization of Waves Annual Meeting · Workshop · Feb 19, 2026</span>
 
 </div>
 
@@ -44,6 +50,19 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 
 <div class="upcoming-section">
 
-_No upcoming travel._
+- **[ICERM: Techniques and Tools for the Formalization of Analysis](https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa)**
+  <br><span class="entry-meta">ICERM, Providence, RI · May 11 - 15, 2026</span>
+
+- **Visit to Brown University**
+  <br><span class="entry-meta">Brown University, Providence, RI · May 01 - 02, 2026</span>
+
+- **[SMS Spring Meeting: Formalization and Proof Assistants](https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants)**
+  <br><span class="entry-meta">UniDistance Suisse, Brig, Switzerland · Mar 25 - 27, 2026</span>
+
+- **COST mSPACE Kick-off Meeting**
+  <br><span class="entry-meta">Milan, Italy · Mar 16 - 19, 2026</span>
+
+- **[Isaac Newton Institute — Spectral Geometry in the Clouds](https://www.newton.ac.uk/event/sgc/)**
+  <br><span class="entry-meta">Cambridge, UK · Feb 21 - Mar 08, 2026</span>
 
 </div>
