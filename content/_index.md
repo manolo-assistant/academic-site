@@ -41,6 +41,9 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 - **[TBD](https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants)**
   <br><span class="entry-meta">SMS Spring Meeting: Formalization and Proof Assistants (Brig) · Workshop · Mar 25, 2026</span>
 
+- **TBD**
+  <br><span class="entry-meta">COST mSPACE Kick-off Meeting (Milan) · Conference · Mar 16, 2026</span>
+
 - **[Some Extreme Regimes of the Laplace Operator](https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/)**
   <br><span class="entry-meta">2026 Simons Collaboration on Localization of Waves Annual Meeting · Workshop · Feb 19, 2026</span>
 

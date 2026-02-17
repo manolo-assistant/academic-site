@@ -33,6 +33,16 @@ My research presentations at conferences, workshops, and seminars.
 
 
 <div class="talk-item">
+  <h3>TBD</h3>
+  <div class="talk-meta">
+    <span class="talk-type">Conference</span>
+    <span class="talk-event">COST mSPACE Kick-off Meeting (Milan)</span>
+    <span class="talk-date">Mar 16, 2026</span>
+  </div>
+</div>
+
+
+<div class="talk-item">
   <h3>Some Extreme Regimes of the Laplace Operator</h3>
   <div class="talk-meta">
     <span class="talk-type">Workshop</span>
