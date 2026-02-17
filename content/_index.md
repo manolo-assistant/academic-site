@@ -4,7 +4,7 @@ title: "Home"
 
 ## About me
 
-I am a CDS Faculty Fellow at [NYU Center for Data Science](https://cds.nyu.edu/), working on harmonic analysis, spectral theory, and vaguely related topics.
+I am a CDS Faculty Fellow at [NYU Center for Data Science](https://cds.nyu.edu/), working on harmonic analysis, spectral theory, convex geometry, and AI for mathematics.
 
 Originally from Barcelona, I got my PhD from [UCLA](https://ww3.math.ucla.edu/) in 2023 under the supervision of [Terence Tao](https://www.math.ucla.edu/~tao/), followed by a research internship at [Microsoft Research](https://www.microsoft.com/en-us/research/) and a postdoc at [ETHZ](https://math.ethz.ch/) with [Svitlana Mayboroda](https://cse.umn.edu/math/svitlana-mayboroda).
 
