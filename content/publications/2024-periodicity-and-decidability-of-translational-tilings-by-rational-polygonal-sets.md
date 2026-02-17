@@ -1,6 +1,6 @@
 ---
 title: "Periodicity and decidability of translational tilings by rational polygonal sets"
-date: 2024-01-01
+date: 2024-08-01
 type: "preprint"
 authors: "Jaume de Dios, José Madrid, Jan Grebík, Rachel Greenfeld"
 year: "2024"

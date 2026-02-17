@@ -1,6 +1,6 @@
 ---
 title: "On Sparsity in Overparametrised Shallow ReLU Networks"
-date: 2020-01-01
+date: 2020-06-01
 type: "preprint"
 authors: "Joan Bruna, Jaume de Dios"
 year: "2020"

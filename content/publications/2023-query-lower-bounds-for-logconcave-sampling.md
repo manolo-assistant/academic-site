@@ -1,6 +1,6 @@
 ---
 title: "Query lower bounds for log-concave sampling"
-date: 2023-01-01
+date: 2023-04-01
 type: "preprint"
 authors: "Sinho Chewi, Jaume de Dios Pont, Jerry Li, Chen Lu, Shyam Narayanan"
 year: "2023"

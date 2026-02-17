@@ -1,6 +1,6 @@
 ---
 title: "Convex sets can have interior hot spots"
-date: 2024-01-01
+date: 2024-12-01
 type: "preprint"
 authors: "Jaume de Dios"
 year: "2024"

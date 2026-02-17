@@ -1,6 +1,6 @@
 ---
 title: "Predicting quantum channels over general product distributions"
-date: 2024-01-01
+date: 2024-09-01
 type: "paper"
 authors: "Sitan Chen, Jaume de Dios, Jun-Ting Hsieh, Hsin-Yuan Huang, Jane Lange, Jerry Li"
 year: "2024"

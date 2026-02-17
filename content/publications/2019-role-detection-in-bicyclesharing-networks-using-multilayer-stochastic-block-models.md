@@ -1,6 +1,6 @@
 ---
 title: "Role Detection in Bicycle-Sharing Networks Using Multilayer Stochastic Block Models"
-date: 2019-01-01
+date: 2019-08-01
 type: "preprint"
 authors: "Jane Carlen, Jaume de Dios, Cassidy Mentus, Shyr-Shea Chang, Stephanie Wang, Mason A. Porter"
 year: "2019"

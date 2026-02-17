@@ -1,6 +1,6 @@
 ---
 title: "Decoupling for fractal subsets of the parabola"
-date: 2020-01-01
+date: 2020-12-01
 type: "preprint"
 authors: "Alan Chang, Jaume de Dios, Rachel Greenfeld, Asgar Jamneshan, Zane Kun Li, José Madrid"
 year: "2020"

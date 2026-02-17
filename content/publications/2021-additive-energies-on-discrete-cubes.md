@@ -1,6 +1,6 @@
 ---
 title: "Additive energies on discrete cubes"
-date: 2021-01-01
+date: 2021-12-01
 type: "preprint"
 authors: "Jaume de Dios, Rachel Greenfeld, Paata Ivanisvili, José Madrid"
 year: "2021"

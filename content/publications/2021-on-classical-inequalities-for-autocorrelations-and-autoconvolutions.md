@@ -1,6 +1,6 @@
 ---
 title: "On classical inequalities for autocorrelations and autoconvolutions"
-date: 2021-01-01
+date: 2021-06-01
 type: "preprint"
 authors: "Jaume de Dios, José Madrid"
 year: "2021"

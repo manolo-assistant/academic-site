@@ -1,6 +1,6 @@
 ---
 title: "A geometric lemma for complex polynomial curves with applications in Fourier restriction theory"
-date: 2020-01-01
+date: 2020-03-01
 type: "preprint"
 authors: "Jaume de Dios"
 year: "2020"

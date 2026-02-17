@@ -1,6 +1,6 @@
 ---
 title: "Uniform Fourier Restriction Estimate for Simple Curves of Bounded Frequency"
-date: 2023-01-01
+date: 2023-03-01
 type: "preprint"
 authors: "Jaume de Dios, Helge Jørgen Samuelsen"
 year: "2023"
