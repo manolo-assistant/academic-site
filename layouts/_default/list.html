@@ -15,7 +15,7 @@
   <div class="entry{{ with .Params.featured_image }} has-image{{ end }}">
     {{ with .Params.featured_image }}
     <div class="entry-image">
-      <img src="{{ . | relURL }}" alt="Paper figure" loading="lazy">
+      <img src="{{ strings.TrimLeft "/" . | absURL }}" alt="Paper figure" loading="lazy">
     </div>
     {{ end }}
     <div class="entry-content">
