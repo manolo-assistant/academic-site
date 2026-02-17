@@ -40,7 +40,7 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 
 <div class="upcoming-compact">
   <div class="upcoming-row">
-    <span class="upcoming-row-title"><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute — Spectral Geometry in the Clouds</a></span>
+    <span class="upcoming-row-title"><a href="https://www.newton.ac.uk/event/sgc/" target="_blank">Isaac Newton Institute — Geometric Spectral Theory and Applications</a></span>
     <span class="upcoming-row-meta">Cambridge · Feb 21 – Mar 08</span>
   </div>
   <div class="upcoming-row">
