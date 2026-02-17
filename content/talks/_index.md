@@ -53,6 +53,12 @@ My research presentations at conferences, workshops, and seminars.
 </div>
 
 
+</div>
+
+<div class="upcoming-past-section">
+  <h2>Past Talks</h2>
+  
+
 <div class="talk-item">
   <h3>Worst-case starts for diffusion processes: The hot spots conjecture</h3>
   <div class="talk-meta">
@@ -88,11 +94,6 @@ My research presentations at conferences, workshops, and seminars.
   <p><a href="https://jointmathematicsmeetings.org/jmm" target="_blank">Event page →</a></p>
 </div>
 
-</div>
-
-<div class="upcoming-past-section">
-  <h2>Past Talks</h2>
-  
 
 <div class="talk-item">
   <h3>Convex sets can have interior hot spots</h3>
