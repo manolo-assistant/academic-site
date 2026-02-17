@@ -21,15 +21,15 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 <div class="upcoming-compact">
   <div class="upcoming-row">
     <span class="upcoming-row-title"><a href="https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/" target="_blank">Some Extreme Regimes of the Laplace Operator</a></span>
-    <span class="upcoming-row-meta">2026 Simons Collaboration on Localization of Waves Annual Meeting · Feb 19</span>
+    <span class="upcoming-row-meta">Flatiron Institute · Feb 19</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">TBD</span>
-    <span class="upcoming-row-meta">COST mSPACE Kick-off Meeting (Milan) · Mar 16</span>
+    <span class="upcoming-row-meta">Milan · Mar 16</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">TBD</span>
-    <span class="upcoming-row-meta"><a href="https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants" target="_blank">SMS Spring Meeting: Formalization and Proof Assistants (Brig)</a> · Mar 25</span>
+    <span class="upcoming-row-meta">SMS, Brig · Mar 25</span>
   </div>
   <div class="upcoming-row">
     <span class="upcoming-row-title">TBD</span>
