@@ -19,7 +19,8 @@
     </div>
     {{ end }}
     <div class="entry-content">
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ $title := .Title }}
+      <h3>{{ with .Params.paper_url }}<a href="{{ . }}" target="_blank">{{ $title }}</a>{{ else }}{{ with .Params.arxiv }}<a href="https://arxiv.org/abs/{{ . }}" target="_blank">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}{{ end }}</h3>
       {{ with .Params.authors }}<p class="entry-authors">{{ . }}</p>{{ end }}
       {{ with .Params.journal }}<p class="entry-journal">{{ . }}</p>{{ end }}
       {{ with .Params.event }}<p class="entry-meta">{{ . }}{{ with $.Params.type }} · {{ . }}{{ end }}</p>{{ end }}
