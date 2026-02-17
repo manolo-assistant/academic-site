@@ -31,11 +31,11 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 
 ---
 
-<div class="section-header"><h2>Upcoming Talks</h2><a class="see-all-btn" href="{{< ref "/talks" >}}">See all talks →</a></div>
+<div class="section-header"><h2>Upcoming Talks</h2><a class="see-all-btn" href="{{< ref \"/talks\" >}}">See all talks →</a></div>
 
 <div class="upcoming-section">
 
-- **[TBD](research)**
+- **TBD**
   <br><span class="entry-meta">Brown University · Seminar · May 01, 2026</span>
 
 - **[TBD](https://unidistance.ch/en/mathematics-and-computer-science/event/sms-spring-meeting-formalization-and-proof-assistants)**
@@ -44,9 +44,18 @@ My name is pronounced [ˈʒawmə] <button class="pronunciation-btn" onclick="doc
 - **[Some Extreme Regimes of the Laplace Operator](https://www.simonsfoundation.org/event/simons-collaboration-on-the-localization-of-waves-annual-meeting-2026/)**
   <br><span class="entry-meta">2026 Simons Collaboration on Localization of Waves Annual Meeting · Workshop · Feb 19, 2026</span>
 
+- **[Worst-case starts for diffusion processes: The hot spots conjecture](https://cds.nyu.edu/mad/)**
+  <br><span class="entry-meta">NYU CDS MaD Seminar · Seminar · Feb 11, 2026</span>
+
+- **[Sampling the hardest simple random variables](https://www.crm.cat/mathematical-foundations-of-machine-learning-pdes-probability-and-dynamics-2/)**
+  <br><span class="entry-meta">CRM — Mathematical Foundations of Machine Learning (Barcelona) · Seminar · Jan 08, 2026</span>
+
+- **[The hot spots conjecture is false: how false is it?](https://jointmathematicsmeetings.org/jmm)**
+  <br><span class="entry-meta">Joint Mathematics Meetings 2026 (Washington, D.C.) · Conference · Jan 05, 2026</span>
+
 </div>
 
-<div class="section-header"><h2>Upcoming Travel</h2><a class="see-all-btn" href="{{< ref "/travel" >}}">See all travel →</a></div>
+<div class="section-header"><h2>Upcoming Travel</h2><a class="see-all-btn" href="{{< ref \"/travel\" >}}">See all travel →</a></div>
 
 <div class="upcoming-section">
 

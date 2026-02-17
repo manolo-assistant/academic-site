@@ -186,7 +186,6 @@ My academic travels, conferences, and research visits.
     <span class="travel-location">Universitat Autonoma de Barcelona</span>
     <span class="travel-date">Jan 13 - 17, 2025</span>
   </div>
-  <p><a href="#" target="_blank">Event page →</a></p>
 </div>
 
 
@@ -216,7 +215,6 @@ My academic travels, conferences, and research visits.
     <span class="travel-location">Hausdorff Center for Mathematics, Bonn</span>
     <span class="travel-date">Jul 08 - 12, 2024</span>
   </div>
-  <p><a href="#" target="_blank">Event page →</a></p>
 </div>
 
 
@@ -236,8 +234,202 @@ My academic travels, conferences, and research visits.
     <span class="travel-location">Hausdorff Institute of Mathematics, Bonn</span>
     <span class="travel-date">Jan 08 - 31, 2024</span>
   </div>
-  <p><a href="#" target="_blank">Event page →</a></p>
 </div>
 
-  <p class="show-more"><em>Showing 23 most recent trips out of 43 total.</em></p>
+
+<div class="travel-item">
+  <h3>NTNU visit</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Hausdorff Institute of Mathematics, Bonn</span>
+    <span class="travel-date">Oct 20 - Nov 03, 2023</span>
+  </div>
+</div>
+
+
+<div class="travel-item">
+  <h3>Microsoft Research Internship</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Seattle, WA</span>
+    <span class="travel-date">May 30 - Sep 01, 2023</span>
+  </div>
+</div>
+
+
+<div class="travel-item">
+  <h3>University of Rochester</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Rochester, NY</span>
+    <span class="travel-date">May 22 - 25, 2023</span>
+  </div>
+</div>
+
+
+<div class="travel-item">
+  <h3>Stanford University</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Palo Alto, California</span>
+    <span class="travel-date">Oct 17 - 28, 2022</span>
+  </div>
+</div>
+
+
+<div class="travel-item">
+  <h3>Nodal domains and landscape functions</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Kopp, Germany</span>
+    <span class="travel-date">Oct 02 - 07, 2022</span>
+  </div>
+  <p><a href="https://www.math.uni-bonn.de/ag/ana/WiSe2223/summer_school/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>University of Minneapolis</h3>
+  <div class="travel-meta">
+    <span class="travel-location">UMN, Minneapolis</span>
+    <span class="travel-date">Sep 07 - 28, 2022</span>
+  </div>
+</div>
+
+
+<div class="travel-item">
+  <h3>Harmonic analysis on manifolds summer school</h3>
+  <div class="travel-meta">
+    <span class="travel-location">UW Madison, WI</span>
+    <span class="travel-date">Aug 01 - 05, 2022</span>
+  </div>
+  <p><a href="https://sites.google.com/view/2022summerschool/main-page" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>COLT</h3>
+  <div class="travel-meta">
+    <span class="travel-location">London</span>
+    <span class="travel-date">Jul 02 - 05, 2022</span>
+  </div>
+  <p><a href="http://learningtheory.org/colt2022/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Fourier Analysis @200</h3>
+  <div class="travel-meta">
+    <span class="travel-location">ICMS, Edinburgh</span>
+    <span class="travel-date">Jun 23 - Jul 01, 2022</span>
+  </div>
+  <p><a href="https://www.icms.org.uk/workshops/2022/fourier-analysis-200" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Workshop on Analysis and PDEs</h3>
+  <div class="travel-meta">
+    <span class="travel-location">CRM -  Barcelona</span>
+    <span class="travel-date">Jun 23, 2022</span>
+  </div>
+  <p><a href="https://www.crm.cat/workshop-on-analysis-and-pdes//" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Princeton Machine Learning Theory Summer School 2022</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Princeton</span>
+    <span class="travel-date">Jun 13 - 17, 2022</span>
+  </div>
+  <p><a href="https://mlschool.princeton.edu/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Analysis on the hypercube with applications to quantum computing</h3>
+  <div class="travel-meta">
+    <span class="travel-location">AIM, San Jose</span>
+    <span class="travel-date">Jun 06 - 10, 2022</span>
+  </div>
+  <p><a href="https://aimath.org/workshops/upcoming/hypercubequantum/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>CBMS Conference</h3>
+  <div class="travel-meta">
+    <span class="travel-location">FSU, Tallahasee</span>
+    <span class="travel-date">May 21 - 28, 2022</span>
+  </div>
+  <p><a href="https://cbms2020.math.fsu.edu/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>ETH Zurich</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Visiting Joao P. Ramos</span>
+    <span class="travel-date">Mar 14 - 19, 2022</span>
+  </div>
+  <p><a href="https://math.ethz.ch/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Basque Center for Applied Mathematics</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Visiting Mateus Costa da Sousa.</span>
+    <span class="travel-date">Mar 08 - 14, 2022</span>
+  </div>
+  <p><a href="http://www.bcamath.org/en/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Interactions between Geometric measure theory, Singular integrals, and PDE</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Hausdorff Institute of Mathematics, Bonn</span>
+    <span class="travel-date">Jan 23 - Mar 05, 2022</span>
+  </div>
+  <p><a href="https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Summer School on discrete analysis and complexity of quantum algorithms</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Online</span>
+    <span class="travel-date">Oct 11 - 15, 2021</span>
+  </div>
+  <p><a href="https://sites.google.com/view/paata/quantum" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Brascamp-Lieb inequalities Summer School</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Wolffhotel, Kopp, Germany</span>
+    <span class="travel-date">Sep 26 - Oct 01, 2021</span>
+  </div>
+  <p><a href="https://www.math.uni-bonn.de/ag/ana/WiSe2122/BL-school/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Harmonic Analysis and Analytic Number Theory, Dual trimester program</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Hausdorff Mathematical Institute, Bonn</span>
+    <span class="travel-date">Aug 01 - 20, 2021</span>
+  </div>
+  <p><a href="https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/" target="_blank">Event page →</a></p>
+</div>
+
+
+<div class="travel-item">
+  <h3>Harmonic Analysis and Analytic Number Theory, Dual trimester program</h3>
+  <div class="travel-meta">
+    <span class="travel-location">Hausdorff Mathematical Institute, Bonn</span>
+    <span class="travel-date">May 03 - Jun 26, 2021</span>
+  </div>
+  <p><a href="https://www.him.uni-bonn.de/programs/current-trimester-program/harmonic-analysis-and-analytic-number-theory/description/" target="_blank">Event page →</a></p>
+</div>
+
+  <p class="show-more"><em>Showing all 38 past trips.</em></p>
 </div>
