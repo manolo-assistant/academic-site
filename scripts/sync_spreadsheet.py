@@ -172,6 +172,7 @@ def build_cv_json(publications, talks, travel):
             "title": title or "TBD",
             "type": r.get("type", "").strip() or "Seminar",
             "event": r.get("event", "").strip(),
+            "short_location": r.get("short_location", "").strip(),
             "url": r.get("url", "").strip(),
             "abstract": r.get("abstract", "").strip(),
             "tags": tags,
@@ -211,6 +212,7 @@ def gen_upcoming_talks_html(talks, max_items=5):
         title = r.get("title", "").strip() or "TBD"
         url = r.get("url", "").strip()
         event = r.get("event", "").strip()
+        short_loc = r.get("short_location", "").strip() or event
         date_str = format_month_day(d)
 
         if title and title.upper() != "TBD" and url:
@@ -225,7 +227,7 @@ def gen_upcoming_talks_html(talks, max_items=5):
         else:
             title_html = title
 
-        meta = f"{event} · {date_str}" if event else date_str
+        meta = f"{short_loc} · {date_str}" if short_loc else date_str
 
         lines.append('  <div class="upcoming-row">')
         lines.append(f'    <span class="upcoming-row-title">{title_html}</span>')
