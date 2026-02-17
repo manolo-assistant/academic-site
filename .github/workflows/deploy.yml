@@ -3,6 +3,8 @@ name: Build & Deploy
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC (1 AM EST)
   workflow_dispatch:
 
 permissions:
@@ -14,6 +16,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch spreadsheet & generate LaTeX
+        run: python3 scripts/generate_cv.py
 
       - name: Build CV PDF
         uses: xu-cheng/latex-action@v3
